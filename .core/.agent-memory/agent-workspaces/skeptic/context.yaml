@@ -1,0 +1,61 @@
+# 레이 (Skeptic) Contextual Information - 100KB
+# 상세한 검증 맥락 - 활성 세션
+
+workflow_phase: "validation"
+validation_session:
+  start_time: "2025-08-20T01:18:24.545+09:00"
+  duration: "00:00"
+  validation_scope: "template"
+  critique_depth: "초기화 단계"
+
+work_summary:
+  detailed_validations:
+    accuracy_verification: []
+    statistical_validation: []
+    reproducibility_testing: []
+    bias_analysis: []
+    alternative_testing: []
+    
+  artifacts_created:
+    validation_reports: []
+    critique_documents: []
+    bias_analyses: []
+    alternative_hypotheses: []
+    
+  methodology_used:
+    primary_approach: "템플릿 초기화"
+    validation_frameworks: []
+    statistical_methods: []
+    critique_techniques: []
+    
+  time_invested:
+    validation: "00:00"
+    analysis: "00:00"
+    critique: "00:00"
+    documentation: "00:00"
+
+context_for_next:
+  next_agent: "synthesizer"
+  detailed_briefing: |
+    나나미(Synthesizer)를 위한 상세 검증 브리핑:
+    - 검증된 결과들과 신뢰도 수준
+    - 통합 시 고려해야 할 제한사항들
+    - 다양한 관점들의 가중치와 중요도
+    - 전체 그림에서의 각 요소의 위치
+    
+  required_actions:
+    - "검증된 요소들을 신뢰도에 따라 통합"
+    - "대안 가설들을 종합적 관점에서 평가"
+    - "전체 맥락에서 각 발견의 의미 해석"
+    - "일관된 이야기로 결과들 연결"
+    
+  dependencies:
+    validation_results: []
+    critique_documents: []
+    statistical_analyses: []
+    
+from_previous_agent:
+  craftsman_input: "츠구미(Craftsman)로부터 받은 구현물과 테스트 결과"
+  implementations_to_validate: []
+  test_results_to_verify: []
+  quality_claims_to_examine: []

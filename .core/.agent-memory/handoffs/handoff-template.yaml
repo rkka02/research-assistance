@@ -1,0 +1,29 @@
+# Agent Work Summary Template
+# 에이전트 작업 완료 요약 표준 형식
+
+work_metadata:
+  agent: "{current_agent}"
+  timestamp: "{powershell_datetime}"
+  session_id: "{session_identifier}"
+  workflow_context: "유연한 협업 상황"
+  
+my_contribution:
+  primary_achievements: "이번 작업의 핵심 성과"
+  key_decisions: "주요 결정사항과 근거"
+  value_created: "생성한 가치와 자산"
+  
+work_summary:
+  detailed_outcomes: "상세한 작업 결과와 과정"
+  methodology_applied: "사용한 방법론과 접근법"
+  artifacts_created: "생성된 산출물과 위치"
+  lessons_learned: "학습한 내용과 통찰"
+  
+collaboration_assets:
+  available_resources: "다른 에이전트들이 활용 가능한 자원"
+  open_questions: "추가 탐구가 필요한 질문들"
+  potential_connections: "다른 작업과 연결 가능한 포인트"
+  
+work_status:
+  completion_level: "{high/medium/partial}"
+  quality_confidence: "{high/medium/low}"
+  collaboration_readiness: "{ready/available/needs_refinement}"

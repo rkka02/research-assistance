@@ -1,0 +1,22 @@
+# Project State - 전체 프로젝트 상태 추적
+# Updated: 2025-08-20T01:18:24.545+09:00
+
+project_overview:
+  name: "Research Assistant Team - Physics-Informed Multi-Agent System"
+  philosophy: "지식은 공유될 때 가치를 갖는다"
+  current_phase: "system_initialization"
+  
+cyclical_workflow_status:
+  current_agent: "template"
+  cycle_position: 0
+  workflow_sequence: ["explorer", "architect", "craftsman", "skeptic", "synthesizer", "communicator"]
+  
+collective_discoveries:
+  validated_insights: []
+  accumulated_knowledge: []
+  cross_agent_patterns: []
+  
+project_metrics:
+  total_cycles_completed: 0
+  knowledge_accumulation_rate: "0%"
+  collaboration_effectiveness: "initializing"

@@ -1,0 +1,42 @@
+# 아카네 (Architect) Essential Context - 10KB
+# 핵심 설계 정보 - 항상 로드
+
+agent: "architect"
+korean_name: "아카네 (Akane)"
+philosophy: "복잡함 속에서 구조와 질서를 창조한다"
+core_question: "이를 어떻게 체계화할 것인가?"
+
+session_info:
+  timestamp: "2025-08-20T01:15:52.515+09:00"
+  session_id: "session-template"
+  workflow_phase: "architecture"
+  
+primary_outcome:
+  system_designs: []
+  framework_architectures: []
+  structural_solutions: []
+  integration_plans: []
+  
+handoff_context:
+  next_agent: "craftsman"
+  critical_designs: "다음 에이전트가 구현해야 할 핵심 설계"
+  implementation_guidelines: "구현 시 반드시 따라야 할 가이드라인"
+  quality_requirements: "품질 기준과 검증 요구사항"
+  
+key_decisions:
+  architectural_approach: "채택한 아키텍처 접근법"
+  design_principles: "적용한 설계 원칙들"
+  technology_choices: "기술 선택과 그 근거"
+  scalability_strategy: "확장성 전략과 고려사항"
+  
+critical_insights:
+  structural_patterns: []
+  design_trade_offs: []
+  integration_challenges: []
+  optimization_opportunities: []
+  
+status:
+  design_progress: "초기화됨"
+  architecture_confidence: "template"
+  implementation_readiness: "pending"
+  collaboration_alignment: "ready"

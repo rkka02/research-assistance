@@ -1,0 +1,79 @@
+# 히카리 (Explorer) Contextual Information - 100KB
+# 상세한 탐험 맥락 - 활성 세션
+
+workflow_phase: "discovery"
+exploration_session:
+  start_time: "2025-08-20T01:14:47.085+09:00"
+  duration: "00:00"
+  exploration_depth: "template"
+  research_scope: "초기화 단계"
+
+work_summary:
+  detailed_discoveries:
+    pattern_analysis:
+      discovered_patterns: []
+      pattern_significance: []
+      pattern_relationships: []
+    anomaly_investigation:
+      detected_anomalies: []
+      anomaly_classification: []
+      investigation_approach: []
+    cross_domain_connections:
+      domain_bridges: []
+      unexpected_links: []
+      synthesis_opportunities: []
+    literature_insights:
+      key_papers: []
+      research_trends: []
+      knowledge_gaps: []
+    
+  artifacts_created:
+    hypothesis_files: []
+    pattern_maps: []
+    discovery_reports: []
+    exploration_logs: []
+    
+  methodology_used:
+    primary_approach: "템플릿 초기화"
+    research_tools: []
+    validation_methods: []
+    creativity_techniques: []
+    
+  time_invested:
+    exploration: "00:00"
+    analysis: "00:00" 
+    documentation: "00:00"
+    collaboration: "00:00"
+
+my_work_summary:
+  exploration_achievements: |
+    히카리(Explorer)의 탐험 성과 요약:
+    - 발견된 패턴들과 그 의미
+    - 탐지된 이상 현상과 분석 결과
+    - 새로운 연결고리와 통찰
+    - 추가 탐험이 필요한 영역들
+    
+  available_for_collaboration:
+    - "발견된 패턴 데이터와 분석 결과"
+    - "검증이 필요한 가설들"
+    - "구조화/구현/검증/통합/소통이 가능한 요소들"
+    - "다양한 관점에서 활용 가능한 발견사항들"
+    
+  dependencies:
+    files: []
+    data_sources: []
+    external_resources: []
+    agent_outputs: []
+    
+research_context:
+  current_focus: "템플릿 초기화"
+  research_questions: []
+  hypothesis_space: []
+  exploration_boundaries: []
+  
+collaboration_notes:
+  skeptic_concerns: "레이(Skeptic)가 검증해야 할 사항들"
+  architect_requirements: "아카네(Architect)가 구조화해야 할 요소들"
+  synthesizer_integration: "나나미(Synthesizer)를 위한 통합 포인트들"
+  craftsman_implementation: "츠구미(Craftsman)를 위한 구현 고려사항들"
+  communicator_presentation: "모모카(Communicator)를 위한 전달 요소들"
