@@ -1,0 +1,145 @@
+# Physics Statistical Review Template
+
+# Meta Information
+template_name: "statistical-review-template"
+version: "1.0.0"
+created_date: "2025-01-19"
+purpose: "Systematic framework for evaluating statistical analysis quality in physics research"
+korean_philosophy: "통계적 엄밀성이 과학적 신뢰성을 보장한다" # Statistical rigor ensures scientific reliability
+
+# Template Configuration
+statistical_review:
+  # Review Metadata
+  review_info:
+    review_id: ""            # Unique statistical review identifier
+    review_date: ""          # Date of statistical analysis
+    reviewer_name: ""        # Skeptic agent or statistical reviewer
+    target_research: ""      # Research being statistically reviewed
+    analysis_scope: ""       # Statistical aspects being evaluated
+    
+  # Study Statistical Context
+  study_statistics:
+    study_design: ""         # Experimental or observational design
+    sample_characteristics:
+      sample_size: ""        # Number of observations or measurements
+      sampling_method: ""    # How sample was obtained
+      population_definition: "" # Target population characteristics
+      representativeness: "" # How well sample represents population
+      
+    data_characteristics:
+      variable_types: []     # Categorical, continuous, ordinal variables
+      measurement_scales: [] # Measurement precision and accuracy
+      missing_data_pattern: "" # Pattern and amount of missing data
+      outlier_presence: ""   # Presence and treatment of outliers
+
+  # Statistical Method Evaluation
+  method_assessment:
+    analysis_selection:
+      method_appropriateness: "" # Suitability of chosen statistical methods
+      assumption_verification: [] # Whether statistical assumptions were tested
+      alternative_method_consideration: [] # Other methods that could be used
+      method_justification_quality: "" # Quality of method selection rationale
+      
+    implementation_quality:
+      software_appropriateness: "" # Suitability of statistical software used
+      parameter_setting_justification: [] # Rationale for analysis parameters
+      computational_accuracy: "" # Accuracy of statistical computations
+      reproducibility_information: "" # Sufficient detail for reproduction
+      
+  # Statistical Results Evaluation
+  results_assessment:
+    descriptive_statistics:
+      summary_statistic_appropriateness: [] # Suitable measures of central tendency
+      variability_measure_adequacy: []      # Appropriate dispersion measures
+      distribution_characterization: []     # Adequate distribution description
+      visualization_effectiveness: []       # Quality of data visualization
+      
+    inferential_statistics:
+      hypothesis_test_appropriateness: [] # Suitable statistical tests used
+      significance_level_justification: "" # Rationale for alpha level choice
+      power_analysis_adequacy: ""         # Quality of statistical power analysis
+      effect_size_reporting: ""           # Appropriate effect size measures
+      
+    uncertainty_quantification:
+      confidence_interval_reporting: "" # Appropriate confidence intervals
+      uncertainty_source_identification: [] # All uncertainty sources considered
+      error_propagation_analysis: ""    # Quality of uncertainty propagation
+      sensitivity_analysis_inclusion: "" # Robustness testing adequacy
+
+# Critical Statistical Issues
+statistical_concerns:
+  # Common Statistical Problems
+  identified_issues:
+    multiple_testing_problems:
+      uncorrected_comparisons: []  # Multiple comparisons without correction
+      family_wise_error_control: "" # Adequacy of error rate control
+      false_discovery_rate_management: "" # FDR control implementation
+      
+    p_hacking_indicators:
+      suspicious_p_values: []     # P-values just below significance threshold
+      selective_reporting_evidence: [] # Evidence of selective result reporting
+      post_hoc_analysis_concerns: []    # Inappropriate post-hoc analyses
+      
+    sample_size_issues:
+      power_analysis_absence: ""   # Missing or inadequate power analysis
+      underpowered_study_identification: "" # Insufficient statistical power
+      sample_size_justification: "" # Quality of sample size rationale
+      
+    assumption_violations:
+      normality_assumption_testing: "" # Testing of normality assumptions
+      independence_assumption_verification: "" # Independence assumption validation
+      homoscedasticity_assessment: ""  # Equal variance assumption testing
+
+# Recommendations and Improvements
+statistical_recommendations:
+  immediate_improvements:
+    correction_needs: []     # Statistical corrections needed
+    additional_analyses: []  # Supplementary analyses recommended
+    reporting_enhancements: [] # Improved statistical reporting needed
+    
+  methodological_enhancements:
+    design_improvements: []  # Study design improvements for future research
+    sample_size_optimization: [] # Sample size recommendations
+    analysis_plan_refinement: [] # Pre-specification recommendations
+    
+  transparency_improvements:
+    open_science_practices: [] # Recommendations for transparency
+    reproducibility_enhancements: [] # Improvements for reproducibility
+    data_sharing_suggestions: [] # Data availability recommendations
+
+# Quality Metrics
+review_quality:
+  statistical_expertise_assessment:
+    reviewer_qualification: "" # Statistical expertise of reviewer
+    specialized_consultation: [] # Additional expert consultation used
+    literature_knowledge: ""   # Familiarity with statistical literature
+    
+  review_comprehensiveness:
+    coverage_completeness: [] # All relevant statistical aspects covered
+    depth_appropriateness: "" # Appropriate level of statistical detail
+    balance_objectivity: ""   # Balanced and objective assessment
+
+# Example Statistical Review
+example_review:
+  review_info:
+    review_id: "STAT_REV_001_20250119"
+    target_research: "Particle Physics Cross-Section Measurement"
+    analysis_scope: "Experimental design, statistical analysis, and uncertainty quantification"
+    
+  statistical_concerns:
+    identified_issues:
+      multiple_testing_problems:
+        uncorrected_comparisons: ["15 pairwise comparisons without Bonferroni correction"]
+        family_wise_error_control: "inadequate"
+        
+  statistical_recommendations:
+    immediate_improvements:
+      correction_needs: ["Apply Bonferroni or FDR correction for multiple comparisons"]
+      additional_analyses: ["Bootstrap confidence intervals for robust uncertainty estimation"]
+
+# System Integration Metadata
+system_integration:
+  related_templates: ["validation-report", "bias-assessment", "critique-analysis"]
+  required_data: ["statistical-methods", "physics-error-patterns", "validation-criteria"]
+  output_integration: ["comprehensive-validation", "bias-detection", "evidence-evaluation"]
+  maintenance_schedule: "statistical_standards_update_semi_annually"

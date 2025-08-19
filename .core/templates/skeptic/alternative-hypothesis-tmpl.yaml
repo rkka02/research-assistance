@@ -1,0 +1,134 @@
+# Physics Alternative Hypothesis Template
+
+# Meta Information
+template_name: "alternative-hypothesis-template"
+version: "1.0.0"
+created_date: "2025-01-19"
+purpose: "Systematic framework for generating and evaluating alternative hypotheses in physics research"
+korean_philosophy: "다른 설명을 고려해야 진실에 가까워진다" # Considering other explanations brings us closer to truth
+
+# Template Configuration
+alternative_hypothesis:
+  # Hypothesis Generation Context
+  context_info:
+    hypothesis_id: ""        # Unique alternative hypothesis identifier
+    generation_date: ""      # Date of hypothesis generation
+    generator_name: ""       # Skeptic agent or researcher name
+    primary_hypothesis: ""   # Original hypothesis being challenged
+    phenomenon_description: "" # Physical phenomenon under investigation
+    
+  # Original Hypothesis Analysis
+  primary_hypothesis_analysis:
+    hypothesis_statement: "" # Clear statement of original hypothesis
+    supporting_evidence: []  # Evidence supporting primary hypothesis
+    theoretical_foundation: [] # Theoretical basis for hypothesis
+    prediction_outcomes: []  # Specific predictions made
+    
+    hypothesis_limitations:
+      assumption_dependencies: [] # Key assumptions underlying hypothesis
+      scope_limitations: []       # Boundaries of hypothesis applicability
+      unexplained_aspects: []     # Phenomena not explained by hypothesis
+      contradictory_evidence: []  # Evidence that challenges hypothesis
+
+  # Alternative Hypothesis Generation
+  alternative_hypotheses:
+    # Template for each alternative hypothesis
+    alternative_1:
+      hypothesis_statement: "" # Clear statement of alternative
+      theoretical_basis: []    # Physics principles supporting alternative
+      key_differences: []      # How it differs from primary hypothesis
+      explanatory_advantages: [] # What this alternative explains better
+      
+      testability_assessment:
+        experimental_tests: []  # Experiments that could test this alternative
+        distinguishing_predictions: [] # Predictions that differ from primary
+        feasibility_evaluation: "" # How feasible testing would be
+        resource_requirements: [] # What would be needed for testing
+        
+      evidence_compatibility:
+        supporting_evidence: [] # Existing evidence supporting alternative
+        contradictory_evidence: [] # Evidence challenging alternative
+        neutral_evidence: []    # Evidence compatible with both hypotheses
+        additional_evidence_needed: [] # What evidence would strengthen alternative
+    
+    alternative_2:
+      hypothesis_statement: ""
+      theoretical_basis: []
+      key_differences: []
+      explanatory_advantages: []
+      testability_assessment: {}
+      evidence_compatibility: {}
+    
+    # Additional alternatives as needed
+    additional_alternatives: []
+
+  # Comparative Analysis
+  hypothesis_comparison:
+    explanatory_power_comparison:
+      phenomenon_coverage: {} # Which hypothesis explains more phenomena
+      precision_comparison: {} # Which provides more precise predictions
+      simplicity_assessment: {} # Relative simplicity (Occam's razor)
+      elegance_evaluation: {}  # Theoretical elegance comparison
+      
+    empirical_support_comparison:
+      evidence_strength: {}    # Relative strength of supporting evidence
+      evidence_quality: {}     # Quality of supporting evidence
+      replication_success: {}  # Track record of replication
+      consensus_level: {}      # Scientific community consensus
+      
+    practical_implications:
+      technological_applications: {} # Practical application potential
+      experimental_accessibility: {} # Ease of experimental testing
+      resource_requirements: {}      # Resource needs for validation
+      timeline_considerations: {}    # Time required for resolution
+
+# Testing Strategy Framework
+testing_strategy:
+  crucial_experiments:
+    discriminating_tests: []  # Experiments that could distinguish hypotheses
+    critical_measurements: [] # Key measurements needed
+    control_requirements: [] # Necessary experimental controls
+    precision_needs: []      # Required measurement precision
+    
+  validation_pathway:
+    immediate_tests: []      # Tests that could be performed soon
+    medium_term_validation: [] # Validation requiring more time/resources
+    long_term_resolution: []   # Ultimate resolution strategy
+    
+  collaborative_opportunities:
+    expertise_requirements: [] # Specialized knowledge needed
+    institutional_resources: [] # Required institutional capabilities
+    international_collaboration: [] # Global coordination opportunities
+
+# Hypothesis Evolution Framework
+hypothesis_refinement:
+  iterative_improvement:
+    hypothesis_modification_triggers: [] # When hypotheses should be modified
+    evidence_integration_protocols: []  # How to incorporate new evidence
+    revision_documentation_standards: [] # How to document changes
+    
+  convergence_indicators:
+    resolution_criteria: []   # What would resolve hypothesis competition
+    consensus_building_factors: [] # What promotes scientific consensus
+    paradigm_shift_indicators: [] # Signs of fundamental change needed
+
+# Example Alternative Hypothesis Analysis
+example_analysis:
+  context_info:
+    hypothesis_id: "ALT_HYP_QG_001"
+    primary_hypothesis: "Quantum gravity effects cause observed anomaly"
+    phenomenon_description: "Unexpected behavior in high-energy particle interactions"
+    
+  alternative_hypotheses:
+    alternative_1:
+      hypothesis_statement: "Previously unknown particle interaction mechanism"
+      theoretical_basis: ["Standard Model extension", "New symmetry principles"]
+      key_differences: ["No gravity involvement", "New force mediation"]
+      explanatory_advantages: ["Explains additional observed phenomena", "Simpler theoretical framework"]
+
+# System Integration Metadata
+system_integration:
+  related_templates: ["validation-report", "critique-analysis", "bias-assessment"]
+  required_data: ["logical-fallacies", "bias-types-library", "physics-error-patterns"]
+  output_integration: ["alternative-hypothesis-generation", "evidence-evaluation"]
+  maintenance_schedule: "hypothesis_evaluation_methods_review_annually"

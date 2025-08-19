@@ -1,0 +1,212 @@
+# Physics Explanation Framework Template
+
+# Meta Information
+template_name: "explanation-framework-template"
+version: "1.0.0"
+created_date: "2025-01-19"
+purpose: "Systematic framework for creating clear, engaging physics explanations across diverse audiences"
+korean_philosophy: "명확한 설명은 이해의 문을 연다" # Clear explanation opens the door to understanding
+
+# Template Configuration
+explanation_framework:
+  # Core Physics Concept
+  concept_identification:
+    physics_domain: ""  # e.g., "mechanics", "electromagnetism", "quantum_mechanics", "thermodynamics"
+    concept_name: ""    # Primary physics concept being explained
+    difficulty_level: "" # "introductory", "intermediate", "advanced", "expert"
+    prerequisite_concepts: []  # List of required prior knowledge
+    
+  # Audience Analysis
+  target_audience:
+    audience_type: ""     # "students", "public", "professionals", "researchers"
+    age_range: ""         # e.g., "14-18", "18-25", "adult"
+    background_knowledge: "" # "none", "basic", "intermediate", "advanced"
+    cultural_context: ""  # "western", "eastern", "indigenous", "multicultural"
+    language_preference: "" # Primary language for explanation
+    
+  # Explanation Strategy
+  approach_selection:
+    primary_method: ""    # "analogical", "mathematical", "experimental", "historical", "narrative"
+    supporting_methods: [] # Additional explanation approaches
+    cognitive_load_level: "" # "low", "moderate", "high"
+    interaction_level: "" # "passive", "interactive", "collaborative"
+    
+  # Content Structure
+  explanation_structure:
+    hook:
+      attention_grabber: ""  # Opening statement or question
+      relevance_connection: "" # Why this matters to audience
+      curiosity_generator: ""  # Intriguing aspect to explore
+      
+    foundation:
+      prerequisite_review: ""   # Essential background concepts
+      terminology_introduction: "" # Key terms and definitions
+      conceptual_framework: ""  # Overall structure of explanation
+      
+    core_explanation:
+      main_concept: ""         # Primary physics principle
+      mechanism_description: "" # How/why it works
+      mathematical_relationship: "" # Equations if appropriate
+      visual_representation: ""     # Diagrams, animations, models
+      
+    application:
+      real_world_examples: []   # Practical applications
+      everyday_connections: []  # Daily life relevance
+      technology_applications: [] # Modern tech examples
+      
+    consolidation:
+      key_takeaways: []        # Main learning points
+      common_misconceptions: [] # Frequent errors to avoid
+      further_exploration: []   # Next steps for interested learners
+
+  # Pedagogical Elements
+  learning_support:
+    analogy_system:
+      primary_analogy: ""      # Main comparison for understanding
+      analogy_mapping: {}      # Direct correspondences between analogy and physics
+      analogy_limitations: ""   # Where analogy breaks down
+      
+    scaffolding_elements:
+      guided_questions: []     # Questions to promote thinking
+      progressive_complexity: [] # Step-by-step difficulty increase
+      checkpoint_assessments: [] # Understanding verification points
+      
+    engagement_strategies:
+      interactive_elements: [] # Hands-on activities or simulations
+      thought_experiments: []  # Mental exercises
+      peer_discussion_prompts: [] # Collaborative thinking opportunities
+
+  # Multi-Modal Integration
+  presentation_modes:
+    verbal_explanation:
+      speaking_pace: ""        # "slow", "moderate", "fast"
+      language_complexity: ""   # "simple", "moderate", "technical"
+      tone: ""                 # "conversational", "formal", "enthusiastic"
+      
+    visual_elements:
+      diagram_types: []        # "conceptual", "realistic", "schematic"
+      animation_requirements: [] # Motion or process visualizations
+      color_coding_system: {}   # Consistent color meanings
+      
+    kinesthetic_components:
+      hands_on_activities: []  # Physical demonstrations or experiments
+      gesture_integration: []  # Body movements that illustrate concepts
+      manipulative_materials: [] # Objects for direct interaction
+
+  # Assessment Integration
+  understanding_verification:
+    formative_checks:
+      quick_polls: []          # Instant comprehension checks
+      think_pair_share: []     # Collaborative understanding building
+      exit_tickets: []         # End-of-session understanding probes
+      
+    summative_evaluation:
+      knowledge_application: [] # Problem-solving tasks
+      explanation_tasks: []     # Student teaches back concept
+      transfer_challenges: []   # Apply to new situations
+
+# Cultural Adaptation Parameters
+cultural_considerations:
+  communication_style:
+    directness_preference: ""  # "direct", "indirect", "mixed"
+    authority_relationship: "" # "hierarchical", "egalitarian", "flexible"
+    group_vs_individual: ""    # "collective", "individualistic", "balanced"
+    
+  example_localization:
+    cultural_references: []    # Locally relevant examples
+    historical_connections: [] # Regional scientific history
+    language_adaptations: []   # Culturally appropriate expressions
+    
+  accessibility_accommodations:
+    visual_accessibility: []   # Color-blind friendly, high contrast
+    auditory_accessibility: [] # Captions, visual cues for sound
+    cognitive_accessibility: [] # Simplified language, clear structure
+    motor_accessibility: []    # Alternative interaction methods
+
+# Quality Assurance Checklist
+quality_indicators:
+  scientific_accuracy:
+    - concept_correctness_verified
+    - mathematical_precision_maintained
+    - experimental_validity_confirmed
+    - current_research_alignment_checked
+    
+  pedagogical_effectiveness:
+    - learning_objectives_clear
+    - audience_appropriateness_confirmed
+    - engagement_strategies_integrated
+    - assessment_alignment_verified
+    
+  accessibility_compliance:
+    - universal_design_principles_applied
+    - multiple_learning_styles_accommodated
+    - cultural_sensitivity_maintained
+    - inclusive_language_used
+
+# Implementation Notes
+implementation_guidelines:
+  preparation_steps:
+    - audience_analysis_completion
+    - content_accuracy_verification
+    - material_preparation_and_testing
+    - backup_plan_development
+    
+  delivery_optimization:
+    - real_time_comprehension_monitoring
+    - adaptive_pacing_implementation
+    - engagement_level_adjustment
+    - feedback_collection_integration
+    
+  follow_up_actions:
+    - learning_outcome_assessment
+    - improvement_opportunity_identification
+    - resource_sharing_facilitation
+    - continuous_refinement_implementation
+
+# Example Usage (Template Instantiation)
+example_instantiation:
+  concept_identification:
+    physics_domain: "mechanics"
+    concept_name: "Newton's Second Law"
+    difficulty_level: "intermediate"
+    prerequisite_concepts: ["force", "mass", "acceleration"]
+    
+  target_audience:
+    audience_type: "students"
+    age_range: "16-18"
+    background_knowledge: "basic"
+    cultural_context: "multicultural"
+    language_preference: "English"
+    
+  approach_selection:
+    primary_method: "analogical"
+    supporting_methods: ["experimental", "mathematical"]
+    cognitive_load_level: "moderate"
+    interaction_level: "interactive"
+
+# Success Metrics
+evaluation_criteria:
+  comprehension_indicators:
+    - accurate_concept_explanation_by_learners
+    - successful_problem_solving_application
+    - misconception_reduction_evidence
+    - transfer_to_new_situations_demonstration
+    
+  engagement_measures:
+    - active_participation_levels
+    - question_generation_frequency
+    - sustained_attention_duration
+    - voluntary_exploration_continuation
+    
+  satisfaction_ratings:
+    - learner_satisfaction_scores
+    - perceived_value_assessments
+    - recommendation_likelihood
+    - repeat_engagement_rates
+
+# Metadata for System Integration
+system_integration:
+  compatible_frameworks: ["audience-adaptation", "content-simplification", "engagement-optimization"]
+  required_resources: ["presentation_tools", "assessment_systems", "feedback_collection"]
+  output_formats: ["lesson_plans", "presentation_slides", "interactive_modules"]
+  maintenance_schedule: "quarterly_review_and_updates"

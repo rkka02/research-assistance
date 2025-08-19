@@ -1,0 +1,298 @@
+# Physics Visualization Planning Template
+
+# Meta Information
+template_name: "visualization-plan-template"
+version: "1.0.0"
+created_date: "2025-01-19"
+purpose: "Systematic framework for planning effective physics visualizations across scales and contexts"
+korean_philosophy: "보이는 것이 이해의 시작이다" # What is seen is the beginning of understanding
+
+# Template Configuration
+visualization_plan:
+  # Visualization Project Metadata
+  project_info:
+    visualization_title: ""   # Descriptive name for the visualization
+    physics_concept: ""       # Primary physics principle being illustrated
+    target_outcome: ""        # What understanding should result
+    complexity_level: ""      # "introductory", "intermediate", "advanced", "research"
+    creation_timeline: ""     # Development and testing schedule
+    
+  # Physics Content Analysis
+  content_analysis:
+    physics_domain: ""        # "mechanics", "electromagnetism", "quantum", "thermodynamics", "optics"
+    concept_hierarchy:
+      primary_concepts: []    # Main physics ideas to visualize
+      supporting_concepts: [] # Secondary ideas that provide context
+      prerequisite_knowledge: [] # What audience should know beforehand
+      
+    phenomena_characteristics:
+      scale_range: ""         # "quantum", "atomic", "molecular", "macro", "cosmic"
+      time_scale: ""          # "femtosecond", "nanosecond", "second", "year", "geological"
+      visibility: ""          # "directly_observable", "measurable", "theoretical", "abstract"
+      complexity: ""          # "simple_relationship", "multi_variable", "emergent", "chaotic"
+
+  # Audience and Context Analysis  
+  audience_context:
+    target_audience:
+      audience_type: ""       # "students", "researchers", "public", "professionals"
+      age_range: ""           # Specific age demographic
+      physics_background: ""  # Prior knowledge level
+      visualization_literacy: "" # Comfort with visual representations
+      
+    usage_context:
+      educational_setting: "" # "classroom", "laboratory", "self_study", "public_presentation"
+      interaction_mode: ""    # "passive_viewing", "guided_exploration", "free_exploration"
+      device_context: ""      # "mobile", "tablet", "desktop", "large_display", "vr_headset"
+      time_constraints: ""    # Available interaction time
+
+# Visualization Design Framework
+design_framework:
+  # Visual Representation Strategy
+  representation_approach:
+    visualization_type: ""    # "2D_diagram", "3D_model", "animation", "simulation", "interactive"
+    abstraction_level: ""     # "realistic", "simplified", "schematic", "symbolic"
+    perspective_choice: ""    # "macro_view", "micro_view", "multi_scale", "cross_section"
+    temporal_approach: ""     # "static", "sequential", "continuous", "user_controlled"
+    
+  # Physics Visualization Standards
+  physics_visual_grammar:
+    vector_representation:
+      arrow_conventions: {}   # Direction, magnitude, color coding
+      coordinate_systems: {} # Axis labeling and orientation
+      reference_frames: {}   # Fixed vs moving perspectives
+      
+    field_visualization:
+      field_line_rules: {}   # Density, continuity, direction
+      color_mapping: {}      # Intensity scales and meaning
+      contour_methods: {}    # Equipotential and field strength
+      
+    particle_systems:
+      particle_properties: {} # Size, color, shape meanings
+      motion_representation: {} # Trails, vectors, ghosting
+      interaction_visualization: {} # Collision, attraction, repulsion
+      
+    wave_representations:
+      amplitude_encoding: {}  # Height, color, brightness
+      frequency_visualization: {} # Spacing, oscillation rate
+      phase_relationships: {} # Synchronization, interference
+
+  # Scale and Proportion Management
+  scale_handling:
+    size_relationships:
+      proportional_accuracy: "" # "true_scale", "logarithmic", "symbolic"
+      scale_indicators: []    # Reference objects, rulers, annotations
+      zoom_capabilities: []   # Multi-resolution exploration options
+      
+    quantity_representation:
+      numerical_display: []   # Values, units, precision
+      comparative_visualization: [] # Before/after, multiple scenarios
+      uncertainty_indication: [] # Error bars, confidence regions
+
+# Interactivity Design
+interaction_design:
+  # User Control Systems
+  control_mechanisms:
+    parameter_manipulation:
+      adjustable_variables: [] # Which physics parameters can be changed
+      control_interface: ""   # "sliders", "dials", "text_input", "gesture"
+      value_ranges: {}        # Minimum, maximum, default values
+      real_time_response: ""  # How quickly visualization updates
+      
+    viewpoint_control:
+      camera_movement: []     # Pan, zoom, rotate capabilities
+      perspective_options: [] # Fixed viewpoints, free navigation
+      coordinate_display: []  # Position indicators, grid overlay
+      
+    temporal_control:
+      playback_features: []   # Play, pause, step, rewind
+      speed_adjustment: []    # Slow motion, fast forward options
+      time_markers: []        # Significant moments, bookmarks
+      
+  # Guided Exploration Features
+  exploration_support:
+    tutorial_system:
+      introduction_sequence: [] # How to use the visualization
+      concept_progression: []  # Ordered learning pathway
+      hint_system: []         # Context-sensitive guidance
+      
+    investigation_tools:
+      measurement_capabilities: [] # Built-in rulers, protractors, timers
+      data_collection: []     # Values recording, export options
+      comparison_tools: []    # Side-by-side views, overlay features
+      
+    assessment_integration:
+      embedded_questions: []  # Conceptual checks during exploration
+      prediction_challenges: [] # Hypothesis testing opportunities
+      reflection_prompts: []  # Understanding consolidation
+
+# Technical Implementation Strategy
+technical_specifications:
+  # Platform and Technology Selection
+  technology_stack:
+    rendering_engine: ""      # "WebGL", "Unity", "Three.js", "Processing"
+    physics_simulation: ""    # "Matter.js", "Cannon.js", "custom_engine"
+    user_interface: ""        # "HTML5", "native_mobile", "desktop_app"
+    data_handling: ""         # "real_time", "pre_computed", "server_based"
+    
+  # Performance Requirements
+  performance_targets:
+    frame_rate: ""            # Target FPS for smooth interaction
+    loading_time: ""          # Maximum initial load duration
+    responsiveness: ""        # Maximum delay for user input response
+    memory_usage: ""          # RAM and storage constraints
+    
+  # Compatibility Requirements
+  compatibility_matrix:
+    device_support: []        # Smartphones, tablets, desktops, VR
+    browser_compatibility: [] # Chrome, Firefox, Safari, Edge
+    operating_systems: []     # Windows, macOS, iOS, Android
+    accessibility_features: [] # Screen readers, keyboard navigation
+
+# Content Development Workflow
+development_process:
+  # Pre-Production Phase
+  planning_stage:
+    concept_validation: []    # Physics accuracy verification
+    audience_research: []     # User needs and preferences study
+    technical_feasibility: [] # Technology capability assessment
+    resource_planning: []     # Time, budget, skill requirements
+    
+  # Production Phase
+  creation_workflow:
+    asset_development: []     # Graphics, models, animations creation
+    physics_implementation: [] # Accurate behavior programming
+    interface_design: []      # User experience optimization
+    testing_integration: []   # Quality assurance procedures
+    
+  # Post-Production Phase
+  deployment_preparation:
+    platform_optimization: [] # Performance tuning for target devices
+    user_documentation: []    # Instructions, help systems
+    educator_resources: []    # Teaching guides, lesson plans
+    maintenance_planning: []  # Updates, bug fixes, improvements
+
+# Quality Assurance Framework
+quality_standards:
+  # Scientific Accuracy Validation
+  physics_verification:
+    content_accuracy: []      # Expert physicist review
+    mathematical_precision: [] # Equation and calculation verification
+    experimental_alignment: [] # Consistency with real-world observations
+    conceptual_clarity: []    # Clear physics principle illustration
+    
+  # Educational Effectiveness
+  pedagogical_validation:
+    learning_objective_alignment: [] # Educational goal achievement
+    misconception_prevention: [] # Common error avoidance
+    cognitive_load_optimization: [] # Appropriate complexity level
+    engagement_assessment: []   # Interest and motivation measurement
+    
+  # Technical Quality
+  implementation_standards:
+    performance_benchmarks: [] # Speed, responsiveness, stability
+    user_experience_quality: [] # Intuitive, accessible, enjoyable
+    cross_platform_consistency: [] # Uniform behavior across devices
+    error_handling: []         # Graceful failure and recovery
+
+# User Testing Strategy
+testing_framework:
+  # Usability Testing
+  user_experience_evaluation:
+    task_completion_analysis: [] # Can users achieve intended goals
+    error_pattern_identification: [] # Common mistakes and confusion
+    efficiency_measurement: []   # Time and effort required
+    satisfaction_assessment: []  # User enjoyment and preference
+    
+  # Learning Effectiveness Testing
+  educational_impact_study:
+    comprehension_measurement: [] # Understanding improvement assessment
+    retention_evaluation: []     # Long-term knowledge persistence
+    transfer_capability: []      # Application to new contexts
+    attitude_change: []          # Interest and confidence impact
+    
+  # Accessibility Testing
+  inclusive_design_validation:
+    assistive_technology_compatibility: [] # Screen readers, alternative input
+    diverse_ability_accommodation: []      # Vision, hearing, motor differences
+    cultural_appropriateness: []           # Cross-cultural usability
+    language_accessibility: []             # Multilingual support effectiveness
+
+# Distribution and Deployment
+deployment_strategy:
+  # Platform Distribution
+  release_planning:
+    platform_prioritization: [] # Which platforms to launch first
+    version_management: []      # Iterative release strategy
+    update_mechanisms: []       # How to deliver improvements
+    user_support: []            # Help desk, documentation, community
+    
+  # Educational Integration
+  classroom_deployment:
+    teacher_training: []        # Educator preparation programs
+    curriculum_alignment: []    # Standards and objectives mapping
+    assessment_integration: []  # Grade book and LMS compatibility
+    resource_provisioning: []   # Equipment and infrastructure needs
+    
+  # Community Engagement
+  user_community_building:
+    feedback_collection: []     # User input and suggestion systems
+    best_practice_sharing: []   # Successful implementation examples
+    collaborative_improvement: [] # Community-driven enhancement
+    recognition_systems: []     # User contribution acknowledgment
+
+# Success Metrics and Evaluation
+evaluation_criteria:
+  # Usage Analytics
+  adoption_metrics:
+    user_acquisition: []        # Download, registration, first-use rates
+    engagement_depth: []        # Time spent, features used, return visits
+    completion_rates: []        # Task and learning objective achievement
+    sharing_behavior: []        # Social media, classroom recommendation
+    
+  # Learning Impact Measurement
+  educational_outcomes:
+    knowledge_gain: []          # Pre/post assessment improvements
+    skill_development: []       # Competency demonstration evidence
+    attitude_enhancement: []    # Interest, confidence, career consideration
+    retention_durability: []    # Long-term knowledge persistence
+    
+  # System Performance Indicators
+  technical_success_metrics:
+    reliability_measures: []    # Uptime, crash rates, bug reports
+    performance_benchmarks: []  # Speed, responsiveness, resource usage
+    scalability_evidence: []    # Multi-user, high-load performance
+    maintenance_efficiency: []  # Update deployment, issue resolution
+
+# Example Implementation Plan
+example_visualization:
+  project_info:
+    visualization_title: "Electromagnetic Wave Propagation in 3D Space"
+    physics_concept: "electromagnetic_wave_properties"
+    target_outcome: "understanding_wave_particle_duality_and_field_behavior"
+    complexity_level: "intermediate"
+    
+  design_framework:
+    visualization_type: "interactive_3d_simulation"
+    abstraction_level: "simplified_realistic"
+    perspective_choice: "multi_scale_zoom"
+    temporal_approach: "user_controlled_animation"
+    
+  interaction_design:
+    parameter_manipulation:
+      adjustable_variables: ["frequency", "amplitude", "polarization", "medium_properties"]
+      control_interface: "sliders_and_preset_buttons"
+      real_time_response: "immediate_visual_update"
+
+# System Integration Metadata
+system_integration:
+  template_dependencies: ["audience-analysis", "educational-content", "accessibility-compliance"]
+  data_requirements: ["physics-domains-map", "visualization-methods", "audience-types"]
+  output_specifications: ["technical_specifications", "asset_requirements", "testing_protocols"]
+  maintenance_schedule: "quarterly_content_updates_and_platform_compatibility_checks"
+  
+# Localization and Adaptation Support
+adaptation_framework:
+  cultural_customization: []   # Regional physics examples and contexts
+  language_localization: []    # Multi-language interface and content
+  curriculum_adaptation: []    # Local educational standard alignment
+  technology_accommodation: [] # Different infrastructure capabilities

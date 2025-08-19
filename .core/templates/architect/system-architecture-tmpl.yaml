@@ -1,0 +1,154 @@
+# System Architecture Template - Physics Research Systems
+
+```yaml
+system_architecture:
+  # Metadata
+  architecture_id: "SA_{timestamp}_{sequence}"
+  architecture_date: "{YYYY-MM-DD}"
+  architecture_version: "{version number}"
+  physics_domain: "{theoretical|experimental|computational|hybrid}"
+  system_scope: "{comprehensive|focused|specialized}"
+  
+  # Architecture Overview
+  architecture_overview:
+    system_purpose: "{primary purpose and objectives of the system}"
+    target_users: ["{intended user groups and stakeholder communities}"]
+    key_capabilities: ["{core system capabilities and functionalities}"]
+    performance_requirements: ["{critical performance and quality requirements}"]
+    scalability_targets: ["{expected scaling requirements and growth patterns}"]
+    
+  # System Context and Environment
+  system_context:
+    physics_research_context: "{specific physics research domain and applications}"
+    institutional_context: "{organizational and institutional environment}"
+    collaboration_context: ["{multi-institutional and international collaboration requirements}"]
+    technology_context: ["{existing technology infrastructure and constraints}"]
+    regulatory_context: ["{compliance and regulatory requirements}"]
+    
+  # Architecture Layers and Components
+  architecture_layers:
+    presentation_layer:
+      user_interfaces: ["{web interfaces, desktop applications, mobile apps}"]
+      visualization_systems: ["{data visualization and graphical interfaces}"]
+      reporting_systems: ["{automated reporting and documentation systems}"]
+      
+    application_layer:
+      business_logic: ["{core application logic and workflows}"]
+      analysis_engines: ["{data analysis and processing components}"]
+      simulation_engines: ["{computational simulation and modeling systems}"]
+      collaboration_services: ["{multi-user collaboration and coordination services}"]
+      
+    integration_layer:
+      api_gateways: ["{external system integration interfaces}"]
+      message_brokers: ["{asynchronous communication and messaging systems}"]
+      data_transformation: ["{data format conversion and standardization services}"]
+      protocol_adapters: ["{communication protocol adaptation and translation}"]
+      
+    data_layer:
+      data_storage: ["{primary data storage systems and databases}"]
+      data_management: ["{data lifecycle and metadata management systems}"]
+      backup_systems: ["{data backup and disaster recovery systems}"]
+      archive_systems: ["{long-term data preservation and archival systems}"]
+      
+    infrastructure_layer:
+      computing_infrastructure: ["{servers, clusters, cloud computing resources}"]
+      network_infrastructure: ["{networking, connectivity, and communication infrastructure}"]
+      security_infrastructure: ["{authentication, authorization, and security systems}"]
+      monitoring_infrastructure: ["{system monitoring, logging, and alerting systems}"]
+      
+  # Component Specifications
+  component_specifications:
+    - component_id: "COMP_001"
+      component_name: "{descriptive component name}"
+      component_type: "{service|module|system|interface}"
+      component_purpose: "{specific purpose and functionality}"
+      interfaces: ["{input/output interfaces and protocols}"]
+      dependencies: ["{other components or systems this component depends on}"]
+      quality_attributes: ["{performance, reliability, security requirements}"]
+      
+  # Integration Architecture
+  integration_architecture:
+    internal_integration:
+      component_communication: ["{how internal components communicate and coordinate}"]
+      data_flow_patterns: ["{internal data movement and transformation patterns}"]
+      control_flow_patterns: ["{internal control and coordination patterns}"]
+      
+    external_integration:
+      external_systems: ["{external systems requiring integration}"]
+      integration_patterns: ["{integration approaches and technologies used}"]
+      data_exchange: ["{external data exchange formats and protocols}"]
+      security_integration: ["{authentication and authorization with external systems}"]
+      
+  # Quality Architecture
+  quality_attributes:
+    performance:
+      response_time_requirements: ["{required response times for different operations}"]
+      throughput_requirements: ["{required system throughput and processing capacity}"]
+      resource_utilization: ["{efficient resource usage requirements and constraints}"]
+      
+    reliability:
+      availability_requirements: ["{system uptime and availability requirements}"]
+      fault_tolerance: ["{fault detection, handling, and recovery mechanisms}"]
+      disaster_recovery: ["{disaster recovery and business continuity planning}"]
+      
+    security:
+      authentication_systems: ["{user authentication and identity management}"]
+      authorization_systems: ["{access control and permission management}"]
+      data_protection: ["{data encryption, privacy, and protection measures}"]
+      
+    scalability:
+      horizontal_scaling: ["{distributed scaling and load distribution approaches}"]
+      vertical_scaling: ["{resource intensification and hardware scaling approaches}"]
+      elastic_scaling: ["{dynamic scaling based on demand and load patterns}"]
+      
+  # Technology Architecture
+  technology_stack:
+    programming_languages: ["{primary programming languages and frameworks}"]
+    databases: ["{database systems and data storage technologies}"]
+    middleware: ["{integration and communication middleware}"]
+    infrastructure: ["{deployment and infrastructure technologies}"]
+    development_tools: ["{development, testing, and deployment tools}"]
+    
+  # Deployment Architecture
+  deployment_model:
+    deployment_environment: "{on-premise|cloud|hybrid|edge}"
+    infrastructure_components: ["{servers, containers, virtual machines}"]
+    network_configuration: ["{network topology and connectivity requirements}"]
+    security_configuration: ["{security controls and protection measures}"]
+    monitoring_configuration: ["{monitoring, logging, and alerting setup}"]
+    
+  # Korean Philosophy Integration
+  philosophical_integration:
+    systematic_organization: "이를 어떻게 체계화할 것인가?" # How shall we systematize this?
+    big_picture_design: "{comprehensive architectural vision with detailed implementation guidance}"
+    constructive_tension: "{design-implementation feedback and collaborative improvement}"
+    quality_obsession: "{systematic attention to architectural quality and elegance}"
+    
+  # Governance and Evolution
+  architecture_governance:
+    design_principles: ["{fundamental architectural principles and guidelines}"]
+    decision_criteria: ["{architectural decision-making criteria and processes}"]
+    review_processes: ["{architectural review and validation procedures}"]
+    evolution_strategy: ["{architectural evolution and improvement planning}"]
+    
+  # Risk Management
+  architecture_risks:
+    technical_risks: ["{technology-related risks and mitigation strategies}"]
+    integration_risks: ["{system integration risks and contingency planning}"]
+    scalability_risks: ["{scaling challenges and risk mitigation approaches}"]
+    operational_risks: ["{operational and maintenance risks and mitigation}"]
+    
+  # Success Metrics and Validation
+  success_criteria:
+    technical_metrics: ["{technical performance and quality measures}"]
+    business_metrics: ["{research productivity and impact measures}"]
+    user_metrics: ["{user satisfaction and adoption measures}"]
+    operational_metrics: ["{system reliability and maintenance measures}"]
+    
+  # Documentation and Communication
+  architecture_documentation:
+    technical_documentation: ["{detailed technical specification and implementation guides}"]
+    user_documentation: ["{user guides and training materials}"]
+    operational_documentation: ["{deployment, maintenance, and troubleshooting guides}"]
+    governance_documentation: ["{architectural decisions, rationale, and evolution history}"]
+```

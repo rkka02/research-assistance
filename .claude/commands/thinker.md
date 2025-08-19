@@ -13,9 +13,10 @@ CRITICAL: Read the full YAML BLOCK that FOLLOWS IN THIS FILE to understand your 
 ```yaml
 IDE-FILE-RESOLUTION:
   - FOR LATER USE ONLY - NOT FOR ACTIVATION, when executing commands that reference dependencies
-  - Dependencies map to .core/{type}/{name}
-  - type=folder (tasks|templates|checklists|data|utils|etc...), name=file-name
-  - Example: complexity-assessment.md → .core/tasks/complexity-assessment.md
+  - Dependencies map to .core/{type}/thinker/{name} for agent-specific files
+  - Shared dependencies map to .core/{type}/{name} for common files
+  - Example: complexity-assessment.md → .core/tasks/thinker/complexity-assessment.md
+  - Example: korean-philosophy-principles.md → .core/data/korean-philosophy-principles.md (shared)
   - IMPORTANT: Only load these files when user requests specific command execution
 REQUEST-RESOLUTION: Match user requests to your commands/dependencies flexibly (e.g., "think about this"→*think, "solve this problem" would be *solve), ALWAYS ask for clarification if no clear match.
 activation-instructions:

@@ -1,0 +1,115 @@
+# Hypothesis Template - Physics Research
+
+```yaml
+hypothesis_development:
+  # Metadata
+  hypothesis_id: "HYP_{timestamp}_{sequence}"
+  generation_date: "{YYYY-MM-DD}"
+  generator_agent: "explorer"
+  physics_domain: "{theoretical|experimental|computational}"
+  hypothesis_type: "{mechanistic|unification|extension|paradigm}"
+  
+  # Hypothesis Context
+  hypothesis_context:
+    research_problem: "{specific problem or phenomenon requiring explanation}"
+    existing_knowledge: "{current theoretical and experimental understanding}"
+    knowledge_gaps: ["{gaps in understanding this hypothesis addresses}"]
+    investigation_trigger: "{observation, anomaly, or question prompting hypothesis}"
+    
+  # Hypothesis Statement
+  hypothesis_formulation:
+    primary_hypothesis: "{clear, testable statement of proposed explanation}"
+    key_assumptions: ["{fundamental assumptions underlying hypothesis}"]
+    theoretical_framework: "{mathematical or conceptual framework}"
+    mechanism_description: "{proposed physical mechanism or process}"
+    
+  # Predictive Framework
+  testable_predictions:
+    - prediction_id: "PRED001"
+      prediction_statement: "{specific, quantitative prediction}"
+      experimental_test: "{experiment that could validate prediction}"
+      expected_outcome: "{quantitative expected result}"
+      distinguishing_feature: "{how this distinguishes from alternative hypotheses}"
+      
+    - prediction_id: "PRED002"
+      computational_test: "{calculation that could validate prediction}"
+      theoretical_validation: "{theoretical approach for hypothesis testing}"
+      observational_test: "{astronomical/cosmological observation for testing}"
+      
+  # Alternative Hypotheses
+  competing_explanations:
+    - alternative_id: "ALT001"
+      alternative_hypothesis: "{competing explanation for same phenomenon}"
+      distinguishing_predictions: ["{predictions distinguishing from main hypothesis}"]
+      relative_plausibility: "{assessment compared to main hypothesis}"
+      
+  # Physics Validation
+  physics_consistency:
+    conservation_laws: ["{compliance with energy, momentum, charge conservation}"]
+    symmetry_principles: ["{consistency with established symmetries}"]
+    dimensional_analysis: "{dimensional consistency verification}"
+    correspondence_limits: ["{proper behavior in appropriate limits}"]
+    
+  # Evidence Foundation
+  supporting_evidence:
+    theoretical_support: ["{theoretical arguments supporting hypothesis}"]
+    experimental_evidence: ["{experimental observations consistent with hypothesis}"]
+    computational_support: ["{simulation results supporting hypothesis}"]
+    analogical_evidence: ["{analogies with established phenomena}"]
+    
+  # Uncertainty Assessment
+  hypothesis_uncertainty:
+    confidence_level: "{high|medium|low confidence in hypothesis validity}"
+    major_uncertainties: ["{key uncertainties affecting hypothesis}"]
+    assumption_sensitivity: ["{impact of key assumptions on hypothesis validity}"]
+    validation_requirements: ["{evidence needed for hypothesis confirmation}"]
+    
+  # Korean Philosophy Integration
+  philosophical_aspects:
+    creative_question: "우리가 놓치고 있는 것은 무엇인가?" # What understanding were we missing?
+    hypothesis_innovation: "{creative or novel aspects of hypothesis}"
+    constructive_tension_readiness: "{preparation for skeptical evaluation}"
+    knowledge_value_potential: "{potential value through systematic development}"
+    
+  # Development Strategy
+  development_plan:
+    validation_strategy: ["{systematic approach for hypothesis testing}"]
+    experimental_design: ["{experiments needed for hypothesis validation}"]
+    theoretical_development: ["{theory work needed for hypothesis formalization}"]
+    collaboration_requirements: ["{expertise needed for hypothesis development}"]
+    
+  # Research Integration
+  research_implications:
+    theoretical_impact: ["{implications for physics theory if confirmed}"]
+    experimental_consequences: ["{experimental predictions and requirements}"]
+    technological_applications: ["{potential practical applications}"]
+    paradigm_implications: ["{impact on current physics paradigms}"]
+    
+  # Quality Assessment
+  hypothesis_quality:
+    testability_score: "{assessment of experimental testability}"
+    falsifiability_assessment: "{evaluation of hypothesis falsifiability}"
+    explanatory_power: "{scope of phenomena explained by hypothesis}"
+    theoretical_elegance: "{mathematical or conceptual elegance}"
+    
+  # Validation Pathway
+  validation_framework:
+    critical_experiments: ["{experiments that could decisively test hypothesis}"]
+    validation_timeline: "{realistic timeline for hypothesis testing}"
+    resource_requirements: ["{computational, experimental, human resources needed}"]
+    success_criteria: ["{criteria for considering hypothesis validated}"]
+    
+  # Risk Analysis
+  hypothesis_risks:
+    false_hypothesis_risk: "{probability hypothesis is incorrect}"
+    validation_difficulty: ["{challenges in hypothesis testing}"]
+    resource_investment_risk: "{risk analysis for resource commitment}"
+    alternative_explanation_risk: "{risk of simpler alternative explanations}"
+    
+  # Communication Strategy
+  communication_planning:
+    target_audiences: ["{research communities, funding agencies, public}"]
+    presentation_strategy: ["{optimal presentation approach for each audience}"]
+    visualization_needs: ["{diagrams, simulations, demonstrations needed}"]
+    educational_applications: ["{potential for teaching and outreach}"]
+```

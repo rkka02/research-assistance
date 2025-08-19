@@ -1,0 +1,284 @@
+# Physics Presentation Structure Template
+
+# Meta Information
+template_name: "presentation-structure-template"
+version: "1.0.0"
+created_date: "2025-01-19"
+purpose: "Systematic framework for structuring effective physics presentations across contexts and audiences"
+korean_philosophy: "구조가 명확하면 메시지가 살아난다" # When structure is clear, the message comes alive
+
+# Template Configuration
+presentation_structure:
+  # Presentation Metadata
+  presentation_info:
+    title: ""                # Main presentation title
+    subtitle: ""             # Supporting subtitle if needed
+    presenter_info: {}       # Name, affiliation, credentials
+    date: ""                 # Presentation date
+    venue: ""                # Location or platform
+    duration: ""             # Total time allocation
+    
+  # Audience and Context Analysis
+  context_analysis:
+    audience_profile:
+      primary_audience: ""    # "students", "researchers", "public", "professionals"
+      audience_size: ""       # "small", "medium", "large", "virtual"
+      expertise_level: ""     # "novice", "intermediate", "advanced", "expert"
+      cultural_background: "" # "homogeneous", "diverse", "international"
+      
+    presentation_context:
+      setting: ""            # "classroom", "conference", "public_event", "webinar"
+      formality_level: ""    # "informal", "semi-formal", "formal", "highly_formal"
+      interaction_expectations: "" # "none", "limited", "moderate", "high"
+      technology_availability: [] # Available presentation tools
+      
+  # Physics Content Organization
+  content_structure:
+    physics_domain: ""       # "mechanics", "electromagnetism", "quantum", "thermodynamics"
+    complexity_level: ""     # "introductory", "intermediate", "advanced", "cutting_edge"
+    content_type: ""         # "theoretical", "experimental", "applied", "historical"
+    
+    learning_objectives:
+      cognitive_goals: []     # Knowledge and understanding objectives
+      skill_goals: []         # Procedural and analytical skills
+      affective_goals: []     # Attitudes and appreciation objectives
+
+# Standard Presentation Framework
+presentation_framework:
+  # Opening Section (10-15% of total time)
+  opening:
+    attention_hook:
+      hook_type: ""          # "question", "demonstration", "story", "statistic", "quote"
+      hook_content: ""       # Specific attention-grabbing content
+      relevance_connection: "" # How hook connects to main content
+      
+    introduction:
+      presenter_credibility: "" # Brief credential establishment
+      topic_introduction: ""    # Clear statement of presentation focus
+      audience_relevance: ""    # Why this matters to audience
+      roadmap_preview: []       # Main sections to be covered
+      
+    expectations_setting:
+      interaction_guidelines: "" # How audience can participate
+      time_allocation: {}        # Rough timing for major sections
+      outcome_promises: []       # What audience will gain
+
+  # Main Content Body (70-80% of total time)
+  main_content:
+    # Flexible section structure - adapt based on content needs
+    content_sections:
+      - section_title: ""
+        section_purpose: ""    # Why this section is important
+        time_allocation: ""    # Minutes allocated
+        physics_concepts: []   # Key physics ideas covered
+        
+        subsection_structure:
+          concept_introduction:
+            definition: ""     # Clear concept definition
+            context: ""        # Where this fits in physics
+            importance: ""     # Why this matters
+            
+          explanation_development:
+            theoretical_foundation: "" # Underlying theory
+            mathematical_framework: "" # Equations if appropriate  
+            experimental_evidence: ""  # Supporting observations
+            visual_representations: [] # Diagrams, graphs, animations
+            
+          application_examples:
+            real_world_applications: [] # Practical uses
+            problem_solving_examples: [] # Worked examples
+            technology_connections: []   # Modern applications
+            
+          audience_engagement:
+            interactive_elements: []   # Questions, polls, activities
+            discussion_prompts: []     # Peer interaction opportunities
+            assessment_checks: []      # Understanding verification
+
+  # Conclusion Section (10-15% of total time)
+  conclusion:
+    content_synthesis:
+      key_takeaways: []       # Main learning points
+      concept_integration: "" # How ideas connect
+      broader_implications: "" # Significance beyond immediate topic
+      
+    call_to_action:
+      next_steps: []          # What audience should do next
+      further_resources: []   # Additional learning materials
+      contact_information: "" # How to follow up
+      
+    memorable_closing:
+      closing_type: ""        # "summary", "story", "challenge", "inspiration"
+      closing_content: ""     # Specific memorable ending
+      connection_to_opening: "" # Reference back to hook
+
+# Visual Design Framework
+visual_design:
+  slide_design_principles:
+    layout_consistency:
+      template_selection: ""  # "minimal", "professional", "creative", "academic"
+      color_scheme: {}        # Primary, secondary, accent colors
+      typography: {}          # Font choices for headers, body, emphasis
+      spacing_system: {}      # Consistent margins and padding
+      
+    information_hierarchy:
+      title_treatment: ""     # How section titles are emphasized
+      content_prioritization: "" # How to show importance levels
+      navigation_system: ""   # How audience tracks progress
+      
+  visual_content_integration:
+    diagram_standards:
+      physics_diagram_types: [] # "conceptual", "realistic", "schematic"
+      consistency_rules: {}    # Color coding, line styles, symbols
+      accessibility_considerations: [] # Color-blind friendly options
+      
+    multimedia_integration:
+      animation_usage: []     # When and how to use motion
+      video_integration: []   # Embedded or referenced videos  
+      interactive_elements: [] # Simulations, clickable content
+      
+    data_visualization:
+      graph_standards: {}     # Axis labeling, scaling, colors
+      table_formatting: {}    # Header styles, data alignment
+      statistical_representation: [] # Error bars, confidence intervals
+
+# Interaction and Engagement Strategy
+engagement_strategy:
+  audience_participation:
+    low_tech_interactions:
+      hand_raising: []        # Polling and quick surveys
+      think_pair_share: []    # Collaborative activities
+      question_sessions: []   # Structured Q&A periods
+      
+    technology_enhanced:
+      response_systems: []    # Digital polling platforms
+      collaborative_tools: [] # Shared workspaces
+      social_media_integration: [] # Live social interaction
+      
+  attention_management:
+    variety_techniques:
+      content_type_rotation: [] # Mix of theory, examples, activities
+      presentation_mode_changes: [] # Speaking, showing, doing
+      pace_variation: []       # Fast/slow sections strategically
+      
+    break_strategies:
+      attention_reset_points: [] # Natural stopping points
+      physical_movement: []    # Opportunities for audience movement
+      mental_breaks: []        # Lighter content between heavy sections
+
+# Assessment Integration
+assessment_integration:
+  formative_assessment:
+    real_time_checks:
+      comprehension_polls: [] # Quick understanding verification
+      concept_questions: []   # Targeted conceptual probes
+      misconception_checks: [] # Common error identification
+      
+    participation_assessment:
+      discussion_quality: [] # Engagement level indicators
+      question_sophistication: [] # Understanding depth measures
+      peer_interaction: []    # Collaborative learning evidence
+      
+  summative_opportunities:
+    knowledge_demonstration:
+      problem_solving: []     # Applied physics challenges
+      explanation_tasks: []   # Student teaches concept back
+      synthesis_activities: [] # Integration across topics
+
+# Technical Requirements
+technical_specifications:
+  equipment_needs:
+    presentation_hardware: [] # Projectors, screens, computers
+    audio_systems: []        # Microphones, speakers
+    demonstration_equipment: [] # Physics apparatus, models
+    backup_systems: []       # Contingency equipment
+    
+  software_requirements:
+    presentation_software: [] # PowerPoint, Keynote, Prezi
+    physics_simulations: []  # Interactive demonstration tools
+    assessment_platforms: [] # Polling and quiz systems
+    
+  venue_considerations:
+    room_setup: ""          # Seating arrangement preferences
+    lighting_requirements: [] # For visibility and demonstrations
+    accessibility_features: [] # Accommodation needs
+    technology_infrastructure: [] # Internet, power, connectivity
+
+# Quality Assurance Framework
+quality_metrics:
+  content_quality:
+    scientific_accuracy: []  # Physics correctness verification
+    pedagogical_alignment: [] # Learning objective achievement
+    audience_appropriateness: [] # Level and interest matching
+    
+  presentation_effectiveness:
+    clarity_measures: []     # Understanding achievement
+    engagement_indicators: [] # Participation and interest
+    time_management: []      # Pacing and coverage success
+    
+  technical_execution:
+    visual_quality: []       # Design and readability standards
+    multimedia_integration: [] # Smooth technology use
+    accessibility_compliance: [] # Universal design adherence
+
+# Adaptation Guidelines
+adaptation_framework:
+  time_variations:
+    short_format: {}         # 10-15 minute adaptation
+    standard_format: {}      # 30-60 minute full presentation
+    extended_format: {}      # Multi-hour or workshop format
+    
+  audience_adaptations:
+    expertise_scaling: {}    # Novice to expert modifications
+    cultural_sensitivity: {} # Cross-cultural considerations
+    size_adjustments: {}     # Small group to large audience
+    
+  context_modifications:
+    virtual_presentation: {} # Online delivery adaptations
+    hybrid_format: {}       # Mixed in-person and remote
+    recorded_content: {}     # Asynchronous delivery considerations
+
+# Success Evaluation
+evaluation_criteria:
+  immediate_outcomes:
+    audience_comprehension: [] # Understanding demonstration
+    engagement_levels: []     # Participation measures
+    satisfaction_scores: []   # Immediate feedback ratings
+    
+  long_term_impact:
+    knowledge_retention: []   # Follow-up assessment results
+    application_success: []   # Real-world usage evidence
+    attitude_changes: []      # Interest and confidence shifts
+    
+  presentation_improvement:
+    feedback_integration: [] # How to use audience input
+    iterative_refinement: [] # Systematic improvement process
+    best_practice_capture: [] # Successful element documentation
+
+# Example Implementation
+example_structure:
+  presentation_info:
+    title: "Wave-Particle Duality: The Heart of Quantum Mechanics"
+    duration: "45 minutes"
+    audience_profile:
+      primary_audience: "undergraduate_students"
+      expertise_level: "intermediate"
+      
+  content_sections:
+    - section_title: "Classical Wave vs Particle Models"
+      time_allocation: "10 minutes"
+      physics_concepts: ["wave_properties", "particle_properties"]
+      
+    - section_title: "Historical Experiments and Evidence"  
+      time_allocation: "15 minutes"
+      physics_concepts: ["double_slit_experiment", "photoelectric_effect"]
+      
+    - section_title: "Modern Understanding and Applications"
+      time_allocation: "15 minutes" 
+      physics_concepts: ["quantum_superposition", "complementarity_principle"]
+
+# System Integration Metadata
+system_metadata:
+  compatible_templates: ["explanation-framework", "educational-content", "audience-analysis"]
+  required_dependencies: ["visualization-methods", "engagement-optimization", "assessment-integration"]
+  output_formats: ["slide_presentations", "speaker_notes", "handout_materials"]
+  maintenance_requirements: "content_currency_updates_quarterly"

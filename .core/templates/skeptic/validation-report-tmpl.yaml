@@ -1,0 +1,146 @@
+# Physics Validation Report Template
+
+# Meta Information
+template_name: "validation-report-template"
+version: "1.0.0"
+created_date: "2025-01-19"
+purpose: "Systematic framework for documenting rigorous validation analysis in physics research"
+korean_philosophy: "검증된 결과만이 신뢰할 수 있는 지식이다" # Only validated results are trustworthy knowledge
+
+# Template Configuration
+validation_report:
+  # Validation Metadata
+  validation_info:
+    validation_id: ""         # Unique validation identifier
+    validation_date: ""       # Date of validation analysis
+    validator_name: ""        # Skeptic agent or human validator
+    target_research: ""       # Research being validated
+    validation_scope: ""      # Aspects covered in validation
+    
+  # Research Under Validation
+  research_summary:
+    research_title: ""        # Title of research being validated
+    research_type: ""         # "theoretical", "experimental", "computational"
+    physics_domain: ""        # Relevant physics area
+    key_claims: []           # Main claims being validated
+    methodology_overview: "" # Brief methodology description
+    
+  # Validation Methodology
+  validation_approach:
+    validation_methods: []    # Specific validation techniques used
+    evaluation_criteria: []   # Standards used for assessment
+    evidence_sources: []      # Sources of validation evidence
+    expert_consultation: []   # External expert input
+    
+  # Critical Analysis Results
+  validation_findings:
+    assumption_analysis:
+      identified_assumptions: [] # All assumptions underlying the research
+      assumption_validity: {}   # Assessment of each assumption
+      critical_assumptions: []  # Most important assumptions
+      assumption_testing: []    # How assumptions were tested
+      
+    methodology_evaluation:
+      design_strengths: []      # Well-designed aspects
+      design_weaknesses: []     # Methodological limitations
+      bias_assessment: {}       # Identified biases and their impact
+      control_adequacy: ""      # Quality of experimental controls
+      
+    evidence_quality_assessment:
+      data_reliability: ""     # Quality of data collection
+      statistical_validity: "" # Appropriateness of statistical analysis
+      result_robustness: ""    # Stability of findings
+      replication_likelihood: "" # Probability of successful replication
+      
+    logical_consistency_check:
+      internal_consistency: "" # Logical coherence of arguments
+      external_consistency: "" # Consistency with established knowledge
+      contradiction_identification: [] # Any logical contradictions found
+      gap_identification: []   # Missing logical connections
+
+  # Alternative Analysis
+  alternative_perspectives:
+    alternative_explanations: [] # Other possible interpretations
+    competing_hypotheses: []     # Alternative hypotheses considered
+    null_hypothesis_evaluation: "" # Assessment of null hypothesis
+    effect_size_interpretation: "" # Clinical/practical significance
+    
+  # Validation Conclusion
+  validation_decision:
+    overall_assessment: ""    # "validated", "partially_validated", "not_validated", "inconclusive"
+    confidence_level: ""      # "high", "medium", "low"
+    validity_scope: ""        # Limitations on validation conclusions
+    recommendations: []       # Suggestions for improvement or further validation
+    
+    quality_indicators:
+      scientific_rigor: ""    # Assessment of methodological quality
+      evidence_strength: ""   # Weight of supporting evidence
+      replication_readiness: "" # Preparedness for independent validation
+      knowledge_contribution: "" # Value to scientific understanding
+
+# Detailed Findings
+detailed_analysis:
+  strengths_identified:
+    methodological_strengths: [] # Well-executed aspects
+    analytical_strengths: []     # Strong analysis components
+    innovation_strengths: []     # Novel or creative elements
+    
+  weaknesses_identified:
+    methodological_weaknesses: [] # Design or execution flaws
+    analytical_weaknesses: []     # Analysis limitations or errors
+    interpretation_concerns: []   # Issues with conclusion drawing
+    
+  improvement_recommendations:
+    immediate_improvements: []   # Quick fixes that could be implemented
+    methodology_enhancements: [] # Fundamental design improvements
+    analysis_improvements: []   # Statistical or analytical enhancements
+    future_research_suggestions: [] # Recommendations for follow-up studies
+
+# Risk Assessment
+validation_risks:
+  identified_risks:
+    false_positive_risk: ""   # Risk of incorrect positive findings
+    false_negative_risk: ""   # Risk of missing true effects
+    generalization_risk: ""   # Risk of inappropriate generalization
+    replication_risk: ""      # Risk of replication failure
+    
+  risk_mitigation:
+    recommended_controls: []  # Additional controls to reduce risks
+    validation_requirements: [] # Further validation needed
+    monitoring_suggestions: [] # Ongoing monitoring recommendations
+
+# Quality Assurance
+quality_verification:
+  validation_completeness:
+    coverage_assessment: []   # What aspects were thoroughly validated
+    gap_identification: []    # What aspects need further validation
+    additional_analysis_needs: [] # Further analysis recommendations
+    
+  reviewer_independence:
+    conflict_of_interest: "" # Declaration of potential conflicts
+    bias_mitigation: []      # Steps taken to reduce reviewer bias
+    objectivity_measures: [] # Measures ensuring objective evaluation
+
+# Example Validation Report
+example_validation:
+  validation_info:
+    validation_id: "VAL_QM_001_20250119"
+    target_research: "Quantum Entanglement Measurement Protocol"
+    validation_scope: "Methodology, statistical analysis, and conclusions"
+    
+  validation_findings:
+    assumption_analysis:
+      identified_assumptions: ["Bell inequality violation assumption", "Measurement independence assumption"]
+      assumption_validity: {"bell_violation": "well_supported", "measurement_independence": "requires_verification"}
+      
+  validation_decision:
+    overall_assessment: "partially_validated"
+    confidence_level: "medium"
+    recommendations: ["Strengthen measurement independence verification", "Increase sample size for statistical power"]
+
+# System Integration Metadata
+system_integration:
+  related_tasks: ["comprehensive-validation", "bias-detection", "evidence-evaluation"]
+  required_data: ["validation-criteria", "statistical-methods", "bias-types-library"]
+  output_integration: ["peer-review-analysis", "publication-bias-detection"]
+  maintenance_schedule: "validation_standards_review_annually"

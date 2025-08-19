@@ -1,0 +1,131 @@
+# Measurement Protocol Template - Physics Research
+
+```yaml
+measurement_protocol:
+  # Metadata
+  protocol_id: "MP_{timestamp}_{sequence}"
+  protocol_date: "{YYYY-MM-DD}"
+  protocol_version: "{version number}"
+  physics_domain: "{experimental|theoretical|computational}"
+  measurement_type: "{specific measurement category}"
+  
+  # Protocol Overview
+  protocol_overview:
+    measurement_objective: "{primary measurement goal}"
+    physical_quantity: "{quantity being measured with units}"
+    target_precision: "{required measurement precision}"
+    target_accuracy: "{required measurement accuracy}"
+    measurement_range: "{applicable measurement range}"
+    
+  # Pre-Measurement Preparation
+  preparation_phase:
+    equipment_setup:
+      primary_instruments: ["{main measurement instruments with specifications}"]
+      auxiliary_equipment: ["{supporting equipment and accessories}"]
+      calibration_requirements: ["{pre-measurement calibration procedures}"]
+      
+    environmental_preparation:
+      temperature_control: "{temperature requirements and control methods}"
+      humidity_control: "{humidity requirements and monitoring}"
+      vibration_isolation: "{mechanical isolation requirements}"
+      electromagnetic_shielding: "{EMI protection measures}"
+      
+    sample_preparation:
+      sample_conditioning: ["{sample preparation and conditioning procedures}"]
+      sample_positioning: ["{precise sample positioning requirements}"]
+      sample_handling: ["{contamination prevention and safety protocols}"]
+      
+  # Measurement Execution
+  measurement_procedure:
+    step_sequence:
+      - step_number: 1
+        step_description: "{detailed first measurement step}"
+        duration: "{expected time for step completion}"
+        critical_parameters: ["{parameters requiring careful control}"]
+        
+      - step_number: 2
+        step_description: "{detailed second measurement step}"
+        duration: "{expected time for step completion}"
+        critical_parameters: ["{parameters requiring careful control}"]
+        
+      # Additional steps as needed
+        
+    data_acquisition:
+      sampling_rate: "{data acquisition sampling frequency}"
+      measurement_duration: "{total measurement time}"
+      data_recording: ["{data recording procedures and formats}"]
+      real_time_monitoring: ["{real-time quality monitoring procedures}"]
+      
+  # Quality Control During Measurement
+  quality_assurance:
+    control_measurements:
+      reference_checks: ["{periodic reference standard measurements}"]
+      blank_measurements: ["{background and blank measurement procedures}"]
+      duplicate_measurements: ["{replicate measurement protocols}"]
+      
+    quality_indicators:
+      precision_monitoring: "{real-time precision assessment methods}"
+      drift_detection: "{systematic drift monitoring procedures}"
+      anomaly_detection: ["{procedures for identifying measurement anomalies}"]
+      
+  # Post-Measurement Processing
+  data_processing:
+    initial_processing:
+      data_validation: ["{raw data quality validation procedures}"]
+      outlier_detection: ["{statistical outlier identification methods}"]
+      baseline_correction: ["{baseline and background correction procedures}"]
+      
+    analysis_procedures:
+      statistical_analysis: ["{appropriate statistical analysis methods}"]
+      uncertainty_calculation: ["{measurement uncertainty evaluation procedures}"]
+      calibration_corrections: ["{systematic error correction procedures}"]
+      
+  # Uncertainty Budget
+  uncertainty_assessment:
+    type_a_uncertainty:
+      statistical_sources: ["{random uncertainty components}"]
+      evaluation_methods: ["{statistical evaluation procedures}"]
+      
+    type_b_uncertainty:
+      systematic_sources: ["{systematic uncertainty components}"]
+      evaluation_methods: ["{systematic uncertainty evaluation procedures}"]
+      
+    combined_uncertainty:
+      propagation_method: "{uncertainty propagation methodology}"
+      coverage_factor: "{coverage factor for expanded uncertainty}"
+      confidence_level: "{statistical confidence level}"
+      
+  # Korean Philosophy Integration
+  philosophical_integration:
+    precision_pursuit: "정밀함과 재현성을 추구한다" # Pursuing precision and reproducibility
+    measurement_excellence: "{systematic approach to measurement perfection}"
+    quality_obsession: "{attention to detail in measurement execution}"
+    craftsman_spirit: "{장인정신 applied to measurement protocols}"
+    
+  # Validation and Verification
+  protocol_validation:
+    method_validation: ["{protocol validation procedures}"]
+    inter-laboratory_testing: ["{cross-laboratory validation approaches}"]
+    reference_material_testing: ["{certified reference material validation}"]
+    
+  # Documentation and Traceability
+  documentation_requirements:
+    measurement_records: ["{required measurement documentation}"]
+    calibration_records: ["{calibration traceability documentation}"]
+    environmental_records: ["{environmental condition monitoring records}"]
+    quality_control_records: ["{quality control measurement documentation}"]
+    
+  # Protocol Maintenance
+  maintenance_schedule:
+    equipment_maintenance: ["{regular equipment maintenance procedures}"]
+    calibration_schedule: ["{calibration frequency and procedures}"]
+    protocol_review: ["{protocol review and update procedures}"]
+    training_requirements: ["{personnel training and qualification requirements}"]
+    
+  # Safety and Risk Management
+  safety_protocols:
+    hazard_identification: ["{potential hazards and risk assessment}"]
+    safety_procedures: ["{specific safety protocols and procedures}"]
+    emergency_procedures: ["{emergency response procedures}"]
+    personal_protective_equipment: ["{required PPE and safety equipment}"]
+```

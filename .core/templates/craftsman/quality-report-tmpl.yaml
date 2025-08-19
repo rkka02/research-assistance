@@ -1,0 +1,55 @@
+# Quality Report Template - Physics Research
+
+```yaml
+quality_assessment_report:
+  # Metadata
+  report_id: "QUAL_{timestamp}_{sequence}"
+  assessment_date: "{YYYY-MM-DD}"
+  assessor_agent: "craftsman"
+  physics_domain: "{theoretical|experimental|computational}"
+  assessment_scope: "{comprehensive|focused|specific_aspect}"
+  
+  # Quality Assessment Summary
+  quality_summary:
+    overall_quality_score: "{numerical quality score 0-100}"
+    quality_grade: "{A|B|C|D|F quality classification}"
+    quality_trend: "{improving|stable|declining}"
+    standards_compliance: "{compliant|non_compliant|partial}"
+    
+  # Detailed Quality Metrics
+  precision_assessment:
+    precision_achieved: "{quantitative precision measurement}"
+    precision_target: "{target precision specification}"
+    precision_ratio: "{achieved/target precision ratio}"
+    precision_improvement: "{improvement over baseline}"
+    
+  accuracy_evaluation:
+    bias_assessment: "{systematic deviation from true value}"
+    trueness_score: "{closeness to accepted reference value}"
+    accuracy_validation: "{validation against standards}"
+    
+  reproducibility_status:
+    repeatability_score: "{precision under identical conditions}"
+    reproducibility_score: "{precision under varied conditions}"
+    replication_success_rate: "{independent replication success}"
+    
+  # Korean Philosophy Integration
+  craftsman_excellence:
+    precision_question: "이를 어떻게 완벽하게 실행할 것인가?" # How executed perfectly?
+    quality_obsession: "{demonstration of attention to detail}"
+    continuous_improvement: "{systematic improvement achievements}"
+    craftsman_spirit: "{embodiment of systematic excellence}"
+    
+  # Improvement Recommendations
+  quality_improvements:
+    priority_improvements: ["{highest impact quality enhancements}"]
+    resource_requirements: ["{resources needed for improvements}"]
+    timeline_estimates: ["{realistic improvement timelines}"]
+    
+  # Validation Framework
+  validation_evidence:
+    statistical_validation: "{statistical evidence of quality achievement}"
+    independent_verification: "{independent confirmation of quality claims}"
+    peer_assessment: "{expert evaluation of quality standards}"
+    benchmarking_results: "{comparison with best practices and standards}"
+```

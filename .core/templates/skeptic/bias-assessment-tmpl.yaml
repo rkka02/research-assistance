@@ -1,0 +1,145 @@
+# Physics Bias Assessment Template
+
+# Meta Information
+template_name: "bias-assessment-template"
+version: "1.0.0"
+created_date: "2025-01-19"
+purpose: "Systematic framework for identifying and evaluating biases in physics research"
+korean_philosophy: "편견을 인식하는 것이 객관성의 시작이다" # Recognizing bias is the beginning of objectivity
+
+# Template Configuration
+bias_assessment:
+  # Assessment Metadata
+  assessment_info:
+    assessment_id: ""        # Unique bias assessment identifier
+    assessment_date: ""      # Date of bias analysis
+    assessor_name: ""        # Skeptic agent or reviewer name
+    target_study: ""         # Research being assessed for bias
+    bias_scope: ""           # Types of bias being evaluated
+    
+  # Study Under Assessment
+  study_context:
+    study_title: ""          # Title of research being assessed
+    study_design: ""         # Experimental or theoretical design type
+    physics_domain: ""       # Relevant physics research area
+    sample_characteristics: [] # Study sample or system characteristics
+    methodology_overview: "" # Brief description of methods used
+    
+  # Bias Detection Framework
+  bias_identification:
+    cognitive_biases:
+      confirmation_bias:
+        presence_indicator: "" # "detected", "possible", "unlikely", "absent"
+        evidence_description: "" # Specific evidence of bias
+        impact_assessment: ""   # How bias affects conclusions
+        mitigation_suggestions: [] # Ways to reduce bias impact
+        
+      anchoring_bias:
+        presence_indicator: ""
+        evidence_description: ""
+        impact_assessment: ""
+        mitigation_suggestions: []
+        
+      availability_heuristic:
+        presence_indicator: ""
+        evidence_description: ""
+        impact_assessment: ""
+        mitigation_suggestions: []
+        
+      hindsight_bias:
+        presence_indicator: ""
+        evidence_description: ""
+        impact_assessment: ""
+        mitigation_suggestions: []
+    
+    methodological_biases:
+      selection_bias:
+        presence_indicator: ""
+        bias_mechanism: ""     # How selection bias occurs
+        affected_outcomes: []  # Which results are affected
+        correction_possibilities: [] # How bias could be corrected
+        
+      measurement_bias:
+        presence_indicator: ""
+        bias_source: ""        # Source of measurement bias
+        magnitude_estimation: "" # Estimated bias magnitude
+        correction_methods: [] # Potential correction approaches
+        
+      reporting_bias:
+        presence_indicator: ""
+        selective_reporting_evidence: [] # Evidence of selective reporting
+        missing_information: []          # Information that should be reported
+        transparency_recommendations: [] # Suggestions for improved reporting
+    
+    statistical_biases:
+      publication_bias:
+        presence_indicator: ""
+        bias_evidence: []      # Evidence supporting publication bias
+        missing_studies_estimation: "" # Estimated number of missing studies
+        effect_size_correction: ""     # Bias-corrected effect size
+        
+      multiple_testing_bias:
+        presence_indicator: ""
+        uncorrected_comparisons: [] # Multiple comparisons without correction
+        inflation_risk_assessment: "" # Risk of false positive inflation
+        correction_recommendations: [] # Appropriate correction methods
+
+  # Bias Impact Analysis
+  impact_evaluation:
+    result_validity_impact:
+      conclusion_reliability: "" # How bias affects conclusion reliability
+      effect_size_distortion: "" # Magnitude of bias-induced distortion
+      significance_level_impact: "" # Impact on statistical significance
+      generalizability_effect: "" # How bias affects generalization
+      
+    scientific_knowledge_impact:
+      field_understanding_effect: "" # Impact on field-level understanding
+      future_research_influence: ""  # How bias might affect future research
+      policy_implication_effect: ""  # Impact on practical applications
+      replication_likelihood_effect: "" # Effect on replication success
+
+# Mitigation Strategies
+bias_mitigation:
+  prevention_strategies:
+    design_improvements: []   # Design changes to prevent bias
+    analytical_enhancements: [] # Analysis modifications to reduce bias
+    reporting_improvements: [] # Transparency measures to reveal bias
+    
+  correction_strategies:
+    statistical_corrections: [] # Mathematical bias corrections
+    methodological_adjustments: [] # Procedural modifications
+    interpretation_modifications: [] # Adjusted interpretation approaches
+
+# Quality Assurance
+assessment_quality:
+  bias_detection_validity:
+    detection_method_appropriateness: [] # Suitability of bias detection methods
+    evidence_quality_assessment: []      # Quality of bias evidence
+    expert_consensus_evaluation: []      # Agreement with expert opinion
+    
+  assessment_limitations:
+    detection_sensitivity_limits: [] # Limitations in bias detection capability
+    assessment_scope_boundaries: []  # What aspects were not assessed
+    uncertainty_acknowledgment: []   # Uncertainties in bias assessment
+
+# Example Bias Assessment
+example_assessment:
+  assessment_info:
+    assessment_id: "BIAS_QM_001_20250119"
+    target_study: "Quantum Measurement Efficiency Study"
+    bias_scope: "Confirmation bias and publication bias assessment"
+    
+  bias_identification:
+    cognitive_biases:
+      confirmation_bias:
+        presence_indicator: "detected"
+        evidence_description: "Selective emphasis on supporting results, minimal discussion of contradictory findings"
+        impact_assessment: "Moderate impact on conclusion strength"
+        mitigation_suggestions: ["Include comprehensive discussion of contradictory evidence", "Seek independent analysis"]
+
+# System Integration Metadata
+system_integration:
+  related_templates: ["validation-report", "statistical-review", "alternative-hypothesis"]
+  required_data: ["bias-types-library", "statistical-methods", "physics-error-patterns"]
+  output_integration: ["comprehensive-validation", "evidence-evaluation"]
+  maintenance_schedule: "bias_detection_methods_review_quarterly"

@@ -1,0 +1,328 @@
+# Physics Audience Analysis Template
+
+# Meta Information
+template_name: "audience-analysis-template"
+version: "1.0.0"
+created_date: "2025-01-19"
+purpose: "Comprehensive framework for analyzing and understanding physics communication audiences"
+korean_philosophy: "청중을 알면 소통의 길이 열린다" # Knowing the audience opens the path to communication
+
+# Template Configuration
+audience_analysis:
+  # Analysis Project Information
+  analysis_metadata:
+    analysis_title: ""        # Descriptive name for audience analysis
+    analysis_purpose: ""      # Why this analysis is being conducted
+    physics_context: ""       # Subject matter or educational context
+    analysis_scope: ""        # "individual", "group", "community", "population"
+    timeline: ""             # When analysis will be conducted and used
+    
+  # Demographic Profiling Framework
+  demographic_analysis:
+    basic_demographics:
+      age_distribution:
+        age_ranges: []        # Specific age categories in audience
+        median_age: ""        # Central age tendency
+        age_diversity: ""     # "homogeneous", "mixed", "highly_diverse"
+        age_implications: []  # How age affects physics learning/interest
+        
+      educational_background:
+        education_levels: []  # Highest degree levels represented
+        physics_education: [] # Prior physics coursework/training
+        stem_background: []   # General science/math preparation
+        learning_preferences: [] # Formal vs informal education comfort
+        
+      professional_context:
+        occupational_categories: [] # Types of work/careers represented
+        physics_relevance: ""      # How physics connects to their work
+        professional_development_needs: [] # Career-related learning goals
+        influence_networks: []     # Professional communities they belong to
+        
+    cultural_demographics:
+      cultural_backgrounds: []    # Ethnic, national, regional identities
+      language_preferences: []    # Primary and secondary languages
+      communication_styles: []    # Direct/indirect, formal/informal preferences
+      cultural_values: []         # Individualistic/collectivistic orientations
+      
+    socioeconomic_factors:
+      economic_backgrounds: []    # Income levels and economic circumstances
+      resource_access: []         # Technology, materials, time availability
+      geographic_distribution: [] # Urban, suburban, rural contexts
+      mobility_constraints: []    # Transportation and accessibility factors
+
+# Physics-Specific Knowledge Assessment
+physics_knowledge_analysis:
+  # Prior Knowledge Evaluation
+  conceptual_background:
+    physics_domains:
+      mechanics_knowledge: ""     # "none", "basic", "intermediate", "advanced"
+      electromagnetism_knowledge: "" # Understanding of E&M concepts
+      thermodynamics_knowledge: "" # Heat, energy, statistical mechanics
+      modern_physics_knowledge: "" # Quantum mechanics, relativity
+      
+    mathematical_preparation:
+      algebra_competency: ""      # Comfort with algebraic manipulation
+      calculus_familiarity: ""    # Derivative/integral understanding
+      statistical_literacy: ""    # Probability and data analysis skills
+      geometric_reasoning: ""     # Spatial and visual mathematics
+      
+    experimental_experience:
+      laboratory_skills: []       # Hands-on experimental capabilities
+      measurement_understanding: [] # Precision, accuracy, uncertainty
+      data_analysis_experience: [] # Graph interpretation, pattern recognition
+      scientific_method_familiarity: [] # Hypothesis testing, controls
+      
+  # Misconception Identification
+  alternative_frameworks:
+    common_misconceptions: []     # Frequent incorrect physics ideas
+    alternative_mental_models: [] # Non-scientific explanatory frameworks
+    resistance_patterns: []       # Concepts that are particularly difficult
+    conceptual_change_readiness: "" # Openness to revising understanding
+    
+  # Learning Style Preferences
+  cognitive_preferences:
+    information_processing: ""    # "visual", "auditory", "kinesthetic", "mixed"
+    complexity_comfort: ""        # "simple_clear", "moderate_detail", "comprehensive"
+    pace_preferences: ""          # "slow_careful", "moderate", "fast_paced"
+    interaction_style: ""         # "individual", "small_group", "large_group"
+
+# Motivational and Attitudinal Analysis
+motivation_assessment:
+  # Interest and Curiosity Factors
+  intrinsic_motivation:
+    physics_interest_level: ""    # Current enthusiasm for physics topics
+    curiosity_drivers: []         # What aspects spark natural interest
+    wonder_responsiveness: ""     # Reaction to surprising/beautiful phenomena
+    exploration_tendencies: ""    # Willingness to investigate independently
+    
+  # Extrinsic Motivation Factors
+  external_drivers:
+    academic_requirements: []     # Course grades, degree completion needs
+    career_connections: []        # Professional advancement motivations
+    social_pressures: []          # Family, peer, cultural expectations
+    practical_applications: []    # Real-world problem-solving needs
+    
+  # Barriers and Challenges
+  engagement_obstacles:
+    confidence_levels: ""         # Self-efficacy in learning physics
+    anxiety_factors: []           # Math anxiety, performance pressure
+    time_constraints: []          # Competing priorities and commitments
+    resource_limitations: []      # Access to materials, technology, support
+    
+  # Success Factors
+  enablers:
+    support_systems: []           # Family, friends, mentors, tutors
+    previous_success_experiences: [] # Positive physics/science learning
+    growth_mindset_indicators: [] # Belief in ability to improve
+    community_connections: []     # Peers with similar interests
+
+# Contextual Factors Analysis
+situational_context:
+  # Physical Environment
+  learning_environment:
+    setting_characteristics: []   # Classroom, lab, informal, online
+    technology_infrastructure: [] # Available devices, internet, software
+    physical_accommodations: []   # Space, seating, accessibility features
+    distraction_factors: []       # Noise, interruptions, competing activities
+    
+  # Social Context
+  social_dynamics:
+    peer_relationships: ""        # Collaborative, competitive, supportive
+    authority_structures: ""      # Teacher-student, expert-novice dynamics
+    group_composition: ""         # Homogeneous, diverse, mixed-ability
+    cultural_norms: []           # Acceptable behaviors, participation styles
+    
+  # Temporal Factors
+  timing_considerations:
+    session_duration: ""          # Available time for physics engagement
+    scheduling_constraints: []    # When audience is available/alert
+    developmental_timing: ""      # Readiness for specific physics concepts
+    external_pressures: []        # Competing deadlines, stress factors
+
+# Communication Preferences Analysis
+communication_analysis:
+  # Information Delivery Preferences
+  content_presentation:
+    format_preferences: []        # "lecture", "discussion", "hands_on", "multimedia"
+    complexity_tolerance: ""      # Preference for detail vs simplification
+    example_preferences: []       # "abstract", "concrete", "personal", "universal"
+    pacing_comfort: ""           # Speed of information presentation
+    
+  # Interaction Preferences
+  participation_styles:
+    question_asking_comfort: ""   # Willingness to seek clarification
+    discussion_participation: ""  # Comfort with group conversations
+    presentation_willingness: ""  # Comfort sharing ideas with others
+    collaboration_preferences: [] # Individual, pair, small group, large group
+    
+  # Feedback and Assessment Preferences
+  evaluation_comfort:
+    feedback_timing: ""           # "immediate", "delayed", "ongoing", "summative"
+    feedback_format: []           # Written, verbal, peer, self-assessment
+    error_handling: ""            # How mistakes should be addressed
+    recognition_preferences: []   # Public praise, private acknowledgment, peer recognition
+
+# Technology and Media Analysis
+digital_literacy_assessment:
+  # Technology Comfort and Access
+  technology_proficiency:
+    device_familiarity: []        # Smartphones, tablets, computers, VR
+    software_experience: []       # Simulations, apps, online platforms
+    troubleshooting_ability: ""   # Self-sufficiency with technical issues
+    learning_curve_tolerance: ""  # Willingness to learn new tools
+    
+  # Digital Communication Preferences
+  online_engagement:
+    platform_preferences: []     # Video, text, audio, interactive media
+    synchronous_vs_asynchronous: "" # Real-time vs self-paced preferences
+    social_media_comfort: []      # Using digital tools for peer interaction
+    privacy_concerns: []          # Data sharing and online identity comfort
+    
+  # Multimedia Learning Preferences
+  media_consumption:
+    visual_content_preferences: [] # "realistic", "animated", "schematic", "abstract"
+    audio_content_engagement: []   # Podcasts, narration, music integration
+    interactive_element_appeal: [] # Simulations, games, hands-on digital tools
+    attention_span_considerations: [] # Optimal content duration and breaks
+
+# Special Considerations and Accommodations
+accessibility_analysis:
+  # Learning Differences and Disabilities
+  accommodation_needs:
+    sensory_accommodations: []    # Vision, hearing, sensory processing needs
+    motor_accommodations: []      # Physical interaction alternatives
+    cognitive_accommodations: []  # Processing speed, memory, attention support
+    communication_accommodations: [] # Language, expression, comprehension support
+    
+  # Cultural and Linguistic Diversity
+  diversity_considerations:
+    language_support_needs: []    # Translation, interpretation, multilingual materials
+    cultural_sensitivity_requirements: [] # Respectful representation and examples
+    religious_considerations: []  # Content that may conflict with beliefs
+    socioeconomic_sensitivity: []  # Avoiding assumptions about resources/experiences
+
+# Data Collection Methods
+assessment_methodology:
+  # Quantitative Data Collection
+  survey_instruments:
+    demographic_questionnaires: [] # Basic background information collection
+    knowledge_pretests: []        # Physics concept understanding assessment
+    attitude_scales: []           # Interest, anxiety, self-efficacy measurement
+    learning_style_inventories: [] # Preference identification tools
+    
+  # Qualitative Data Collection
+  interview_protocols:
+    individual_interviews: []     # In-depth personal perspective exploration
+    focus_groups: []             # Group dynamic and consensus understanding
+    observation_protocols: []    # Behavioral and engagement pattern documentation
+    artifact_analysis: []        # Work samples, portfolios, creative expressions
+    
+  # Mixed Methods Integration
+  triangulation_strategies:
+    data_source_convergence: []   # Multiple perspective validation
+    method_complementarity: []    # Quantitative-qualitative integration
+    sequential_exploration: []    # One method informing the next
+    participant_validation: []    # Member checking and feedback integration
+
+# Analysis and Interpretation Framework
+data_analysis_plan:
+  # Quantitative Analysis
+  statistical_approaches:
+    descriptive_statistics: []    # Central tendency, variability, distribution
+    inferential_testing: []      # Group differences, relationships, predictions
+    clustering_analysis: []       # Audience segmentation identification
+    factor_analysis: []          # Underlying dimension identification
+    
+  # Qualitative Analysis
+  interpretive_methods:
+    thematic_analysis: []         # Pattern identification in qualitative data
+    grounded_theory: []          # Theory development from data
+    narrative_analysis: []        # Story and meaning-making examination
+    phenomenological_approach: [] # Lived experience understanding
+    
+  # Integration and Synthesis
+  mixed_methods_integration:
+    concurrent_triangulation: []  # Simultaneous quantitative-qualitative comparison
+    sequential_explanation: []    # Quantitative results explored qualitatively
+    concurrent_embedded: []       # One method supporting the other
+    transformative_framework: []  # Social justice and equity lens application
+
+# Audience Segmentation Strategy
+segmentation_framework:
+  # Primary Segmentation Criteria
+  key_differentiators:
+    knowledge_level_groups: []    # Novice, intermediate, advanced segments
+    motivation_clusters: []       # Intrinsically motivated, grade-focused, career-oriented
+    learning_preference_types: [] # Visual, auditory, kinesthetic, mixed modality
+    cultural_background_groups: [] # Distinct cultural or linguistic communities
+    
+  # Secondary Segmentation Factors
+  refinement_variables:
+    age_cohort_differences: []    # Generational perspectives and preferences
+    professional_context_groups: [] # Industry, academic, personal interest segments
+    technology_comfort_levels: []  # Digital natives, adopters, reluctant users
+    accessibility_requirement_groups: [] # Specific accommodation need clusters
+
+# Application and Implementation Guidance
+implementation_strategy:
+  # Communication Adaptation
+  message_customization:
+    content_adaptation_guidelines: [] # How to modify physics content for segments
+    delivery_method_optimization: []  # Matching methods to audience preferences
+    engagement_strategy_alignment: [] # Connecting activities to motivation patterns
+    assessment_approach_matching: []  # Evaluation methods suited to audience needs
+    
+  # Resource Allocation
+  prioritization_framework:
+    high_impact_segments: []     # Audiences with greatest potential benefit
+    resource_requirement_analysis: [] # Time, materials, expertise needs by segment
+    scalability_considerations: []   # Which approaches can reach larger audiences
+    sustainability_planning: []      # Long-term engagement and support strategies
+    
+  # Success Monitoring
+  evaluation_metrics:
+    engagement_indicators: []     # Participation, attention, interaction measures
+    learning_outcome_measures: [] # Knowledge gain, skill development evidence
+    satisfaction_assessments: []  # Audience appreciation and perceived value
+    behavioral_change_indicators: [] # Actions taken after physics exposure
+
+# Example Audience Analysis
+example_analysis:
+  analysis_metadata:
+    analysis_title: "High School Physics Students - Conceptual Mechanics Unit"
+    physics_context: "Introductory mechanics concepts for 16-17 year olds"
+    analysis_scope: "classroom_cohort_of_28_students"
+    
+  demographic_analysis:
+    age_distribution:
+      age_ranges: ["16-17 years"]
+      median_age: "16.5 years"
+      age_implications: ["abstract thinking development", "identity formation period"]
+      
+    educational_background:
+      physics_education: ["none to basic algebra-based physics exposure"]
+      stem_background: ["completed algebra, currently in pre-calculus"]
+      
+  physics_knowledge_analysis:
+    conceptual_background:
+      mechanics_knowledge: "basic - familiar with speed, force concepts but misconceptions present"
+      mathematical_preparation: "intermediate - comfortable with algebraic manipulation"
+      
+  motivation_assessment:
+    intrinsic_motivation:
+      physics_interest_level: "moderate - interested in applications but intimidated by math"
+      curiosity_drivers: ["technology connections", "sports physics", "space exploration"]
+
+# System Integration Metadata
+system_integration:
+  template_dependencies: ["audience-types", "communication-strategies", "cultural-adaptation"]
+  analysis_tools: ["survey_platforms", "interview_protocols", "statistical_software"]
+  output_integration: ["audience-adaptation", "content-simplification", "engagement-optimization"]
+  update_frequency: "beginning_of_each_new_educational_context_or_communication_project"
+  
+# Quality Assurance Framework
+quality_standards:
+  data_collection_validity: []   # Ensuring accurate and representative information
+  analysis_reliability: []       # Consistent interpretation and conclusions
+  ethical_considerations: []     # Privacy, consent, beneficial use of data
+  cultural_sensitivity: []       # Respectful and inclusive analysis practices
