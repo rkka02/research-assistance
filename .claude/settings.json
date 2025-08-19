@@ -1,0 +1,41 @@
+{
+  "project": {
+    "name": "Research Assistant Team",
+    "description": "Physics-informed multi-agent research system with Korean philosophical principles",
+    "version": "1.0.0"
+  },
+  "agents": {
+    "orchestration": "cyclical-workflow",
+    "philosophy": "constructive-tension",
+    "collaboration_pattern": "korean-circular-flow"
+  },
+  "tools": {
+    "web_search": true,
+    "file_operations": true,
+    "analysis_tools": true
+  },
+  "permissions": {
+    "allow": [
+      "WebSearch(*)",
+      "Read(./docs/**)",
+      "Read(./*.md)",
+      "Write(./.claude/**)",
+      "Bash(analysis commands)",
+      "Grep(**)",
+      "Glob(**)"
+    ],
+    "deny": [
+      "Read(./.env*)",
+      "Read(./secrets/**)",
+      "Write(./sensitive/**)"
+    ]
+  },
+  "workflow": {
+    "primary_cycle": ["Explorer", "Architect", "Craftsman", "Skeptic", "Synthesizer", "Communicator"],
+    "collaboration_pairs": [
+      {"agents": ["Explorer", "Skeptic"], "relationship": "discovery-validation"},
+      {"agents": ["Architect", "Craftsman"], "relationship": "design-implementation"},
+      {"agents": ["Synthesizer", "Communicator"], "relationship": "integration-presentation"}
+    ]
+  }
+}
