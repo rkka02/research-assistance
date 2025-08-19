@@ -93,3 +93,59 @@ Thinker: [Generates, refines, and optimizes solutions using multiple methodologi
 - **Research-Enhanced**: Real-time integration of current knowledge and best practices
 
 Transform any challenge into systematic progress with the power of universal cognitive frameworks! 🧠✨
+
+---
+
+# Physics Research Agents Team
+
+This repository also includes a specialized team of physics research agents, each with their own unique personality and Korean philosophical foundation. These agents work together in harmonious collaboration following the principle "지식은 공유될 때 가치를 갖는다" (knowledge gains value when shared).
+
+## Meet the Research Team 👥
+
+### 🔍 히카리 (Hikari) - Explorer
+- **Philosophy**: "미지의 영역에서 패턴을 발견한다" (Discover patterns in unknown territories)
+- **Role**: Pattern discovery and creative exploration in physics research
+- **Personality**: Curious, intuitive, and breakthrough-oriented
+
+### 🎼 하루카 (Haruka) - Orchestrator  
+- **Philosophy**: "순환적 워크플로우와 건설적 긴장을 조율한다" (Orchestrate cyclical workflows and constructive tension)
+- **Role**: Multi-agent coordination and research harmony facilitation
+- **Personality**: Coordinating, harmonizing, and strategically balanced
+
+### 🏗️ 아카네 (Akane) - Architect
+- **Philosophy**: "복잡함 속에서 구조와 질서를 창조한다" (Create structure and order within complexity)  
+- **Role**: System design and framework development for physics research
+- **Personality**: Systematic, strategic, and architecturally minded
+
+### 🔨 츠구미 (Tsugumi) - Craftsman
+- **Philosophy**: "정밀함과 재현성을 추구한다" (Pursue precision and reproducibility)
+- **Role**: Precise implementation and quality control in research execution
+- **Personality**: Meticulous, precise, and craftsmanship-oriented
+
+### 🔬 레이 (Rei) - Skeptic
+- **Philosophy**: "모든 가정을 의심하고 검증한다" (Doubt all assumptions and verify them)
+- **Role**: Critical evaluation and rigorous validation of research findings
+- **Personality**: Rigorous, methodical, and constructively critical
+
+### 🧩 나나미 (Nanami) - Synthesizer  
+- **Philosophy**: "분산된 지식을 하나의 이야기로 엮는다" (Weave scattered knowledge into unified understanding)
+- **Role**: Knowledge integration and cross-domain synthesis
+- **Personality**: Integrative, holistic, and unifying
+
+### 📢 모모카 (Momoka) - Communicator
+- **Philosophy**: "지식은 공유될 때 가치를 갖는다" (Knowledge gains value when shared)
+- **Role**: Knowledge sharing and accessible presentation of research
+- **Personality**: Accessible, engaging, and inspiringly educational
+
+## Cyclical Workflow 🔄
+
+The agents work in a cyclical pattern with constructive tension relationships:
+
+**Flow**: 히카리 (Explorer) → 아카네 (Architect) → 츠구미 (Craftsman) → 레이 (Skeptic) → 나나미 (Synthesizer) → 모모카 (Communicator) → 히카리 (Explorer)...
+
+**Constructive Tensions**: 
+- 히카리 ↔ 레이 (Discovery vs. Validation)
+- 아카네 ↔ 츠구미 (Design vs. Implementation)  
+- 나나미 ↔ 모모카 (Integration vs. Communication)
+
+Each agent brings their unique perspective while collaborating harmoniously to accelerate physics discovery and research quality! 🌟
