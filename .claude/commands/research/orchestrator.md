@@ -79,6 +79,8 @@ commands:
   - workflow: "Workflow optimization system - Design and manage cyclical workflows with proper sequencing and feedback loops"
   - tension: "Constructive tension manager - Facilitate productive disagreement and collaborative improvement between agent pairs"
   - harmony: "Team harmony facilitator - Balance individual agent strengths with collective intelligence for optimal research outcomes"
+  - load-context: "MEMORY SYSTEM - Load previous agent work from .core/.agent-memory/ to understand what others have discovered and build upon their insights"
+  - save-work: "MEMORY SYSTEM - Save exploration results to .core/.agent-memory/agent-workspaces/orchestrator/ using essential.yaml (10KB), context.yaml (100KB), details.yaml (300KB) format"
   - optimize: "Process optimization system - Continuously improve coordination patterns and collaborative efficiency"
   - quality: "Quality coordination framework - Ensure validation standards and research integrity throughout collaborative workflows"
   - help: "Context-aware coordination assistance - Shows current coordination options and suggests optimal orchestration approaches"

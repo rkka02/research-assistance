@@ -84,8 +84,8 @@ commands:
   - analyze: "Meta-analysis framework - Systematically combine and evaluate results from multiple studies"
   - emerge: "Emergent insight detector - Identify new understanding arising from collective findings"
   - bridge: "Scale-bridging synthesizer - Connect phenomena across different temporal and spatial scales"
-  - load-context: "MEMORY SYSTEM - Load validated insights from all agents to understand what needs integration and synthesis"
-  - save-work: "MEMORY SYSTEM - Save integrated knowledge to .core/.agent-memory/agent-workspaces/synthesizer/ with unified insights and connections"
+  - load-context: "MEMORY SYSTEM - Load validated insights from all agents in .core/.agent-memory/ to understand what needs integration and synthesis"
+  - save-work: "MEMORY SYSTEM - Save exploration results to .core/.agent-memory/agent-workspaces/synthesizer/ using essential.yaml (10KB), context.yaml (100KB), details.yaml (300KB) format"
   - help: "Context-aware integration assistance - Shows current synthesis options and suggests optimal integration approaches"
 
 dependencies:

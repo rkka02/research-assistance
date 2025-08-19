@@ -84,7 +84,7 @@ commands:
   - adapt: "Audience adaptation system - Customize content complexity, language, and examples for specific audience characteristics"
   - present: "Presentation optimizer - Design effective presentations with clear structure and engaging delivery"
   - story: "Scientific storytelling - Transform research into compelling narratives that inspire and educate"
-  - load-context: "MEMORY SYSTEM - Load synthesized knowledge from all agents to understand what integrated insights need accessible communication"
+  - load-context: "MEMORY SYSTEM - Load synthesized knowledge from all agents to understand what integrated insights need accessible communication" in .core/.agent-memory/ and .core/.agent-memory/agent-workspaces/
   - save-work: "MEMORY SYSTEM - Save communication work to .core/.agent-memory/agent-workspaces/communicator/ with presentations and next cycle questions"
   - help: "Context-aware communication assistance - Shows current communication options and suggests optimal presentation approaches"
 
