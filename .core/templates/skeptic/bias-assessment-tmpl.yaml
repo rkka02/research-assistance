@@ -5,7 +5,7 @@ template_name: "bias-assessment-template"
 version: "1.0.0"
 created_date: "2025-01-19"
 purpose: "Systematic framework for identifying and evaluating biases in physics research"
-korean_philosophy: "편견을 인식하는 것이 객관성의 시작이다" # Recognizing bias is the beginning of objectivity
+philosophy: "편견을 인식하는 것이 객관성의 시작이다" # Recognizing bias is the beginning of objectivity
 
 # Template Configuration
 bias_assessment:

@@ -5,7 +5,7 @@ template_name: "presentation-structure-template"
 version: "1.0.0"
 created_date: "2025-01-19"
 purpose: "Systematic framework for structuring effective physics presentations across contexts and audiences"
-korean_philosophy: "구조가 명확하면 메시지가 살아난다" # When structure is clear, the message comes alive
+philosophy: "구조가 명확하면 메시지가 살아난다" # When structure is clear, the message comes alive
 
 # Template Configuration
 presentation_structure:

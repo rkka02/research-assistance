@@ -64,7 +64,7 @@ hypothesis_development:
     assumption_sensitivity: ["{impact of key assumptions on hypothesis validity}"]
     validation_requirements: ["{evidence needed for hypothesis confirmation}"]
     
-  # Korean Philosophy Integration
+  # Philosophy Integration
   philosophical_aspects:
     creative_question: "우리가 놓치고 있는 것은 무엇인가?" # What understanding were we missing?
     hypothesis_innovation: "{creative or novel aspects of hypothesis}"

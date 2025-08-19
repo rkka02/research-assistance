@@ -3,7 +3,7 @@
 ## Template Usage Instructions
 **Purpose**: Standardized reporting format for physics pattern analysis and recognition
 **Used by**: Explorer agent for systematic pattern documentation
-**Integration**: Compatible with Korean cyclical workflow and discovery validation
+**Integration**: Compatible with cyclical workflow and discovery validation
 
 ## Pattern Analysis Structure
 
@@ -67,7 +67,7 @@ pattern_analysis_report:
     unification_potential: "{potential for theoretical unification}"
     interdisciplinary_connections: ["{connections to other scientific fields}"]
     
-  # Korean Philosophy Integration
+  # Philosophy Integration
   philosophical_aspects:
     exploration_question: "우리가 놓치고 있는 것은 무엇인가?" # What patterns were we missing?
     discovery_value: "{how pattern discovery advances understanding}"
@@ -109,8 +109,8 @@ validation_framework:
     - "Pattern interpretation consistent with established physics knowledge"
     - "Uncertainty and limitations clearly documented"
     
-  korean_philosophy_integration:
-    - "Pattern analysis reflects Korean philosophical principles"
+  philosophy_integration:
+    - "Pattern analysis reflects philosophical principles"
     - "Discovery preparation for constructive tension with Skeptic"
     - "Knowledge sharing optimization for value creation"
     - "Cyclical workflow progression planning included"
@@ -149,7 +149,7 @@ agent_collaboration:
 **Experimental Physics**: Focus on measurement precision and systematic error assessment
 **Computational Physics**: Highlight numerical accuracy and algorithm validation
 
-### Korean Philosophy Customization
+### Philosophy Customization
 **미지의 영역 탐험**: Structure analysis for unknown territory exploration
 **건설적 긴장 준비**: Prepare patterns for productive skeptical evaluation  
 **순환적 워크플로우**: Optimize for cyclical workflow progression

@@ -5,7 +5,7 @@ template_name: "critique-analysis-template"
 version: "1.0.0"
 created_date: "2025-01-19"
 purpose: "Systematic framework for documenting critical analysis and constructive criticism in physics research"
-korean_philosophy: "건설적 비판이 과학을 발전시킨다" # Constructive criticism advances science
+philosophy: "건설적 비판이 과학을 발전시킨다" # Constructive criticism advances science
 
 # Template Configuration
 critique_analysis:

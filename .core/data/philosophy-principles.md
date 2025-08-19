@@ -1,14 +1,14 @@
-# Korean Philosophy Principles - Research Collaboration Framework
+# Philosophy Principles - Research Collaboration Framework
 
 ## ⚠️ CRITICAL DATA REFERENCE ⚠️
 
 **THIS IS A REFERENCE DATA FILE - Used by Orchestrator and all agents for philosophical integration**
 
-Comprehensive guide to Korean philosophical principles underlying the multi-agent research system, providing theoretical foundation for collaborative intelligence and systematic knowledge creation.
+Comprehensive guide to philosophical principles underlying the multi-agent research system, providing theoretical foundation for collaborative intelligence and systematic knowledge creation.
 
 **CORE PRINCIPLE**: "지식은 공유될 때 가치를 갖는다" (Knowledge gains value when shared)
 
-## Fundamental Korean Philosophy Integration
+## Fundamental Philosophy Integration
 
 ### 지식 공유의 가치 (Value of Knowledge Sharing)
 **Core Belief**: Knowledge gains exponential value through sharing rather than hoarding
@@ -66,24 +66,24 @@ cyclical_workflow:
 constructive_tension_pairs:
   explorer_skeptic:
     tension_type: "discovery_validation"
-    korean_principle: "대담한 아이디어와 엄격한 검증"
+    principle: "대담한 아이디어와 엄격한 검증"
     productive_outcome: "Robust discoveries surviving rigorous testing"
     balance_method: "Iterate between bold hypothesis and critical evaluation"
     
   architect_craftsman:
     tension_type: "design_implementation"  
-    korean_principle: "큰 그림과 세부 구현"
+    principle: "큰 그림과 세부 구현"
     productive_outcome: "Visionary designs with practical feasibility"
     balance_method: "Iterate between systematic design and implementation constraints"
     
   synthesizer_communicator:
     tension_type: "integration_presentation"
-    korean_principle: "깊이와 접근성"  
+    principle: "깊이와 접근성"  
     productive_outcome: "Deep insights accessible to appropriate audiences"
     balance_method: "Iterate between comprehensive synthesis and accessible presentation"
 ```
 
-## Korean Research Methodology Principles
+## Research Methodology Principles
 
 ### 체계적 접근법 (Systematic Approach)
 **Philosophy**: Complex problems require systematic rather than ad hoc solutions
@@ -124,7 +124,7 @@ constructive_tension_pairs:
 ## Implementation in Multi-Agent Systems
 
 ### Agent Identity Integration
-**Individual Agent Philosophy**: Each agent embodies specific Korean principles
+**Individual Agent Philosophy**: Each agent embodies specific philosophical principles
 **Collective Agent Philosophy**: Group behavior reflects harmony and shared purpose
 **Tension Management**: Productive tension between agents serving system goals
 **Continuous Evolution**: System adapts and improves through philosophical application
@@ -146,7 +146,7 @@ constructive_tension_pairs:
 - Learning accumulation across multiple cycles
 
 ### Quality Philosophy Integration
-**한국적 품질 개념 (Korean Quality Concept)**:
+**품질 개념 (Quality Concept)**:
 - **정성 스럽다**: Sincere, wholehearted effort in all work
 - **섬세함**: Attention to subtle details and nuances
 - **완성도**: Completeness and thoroughness in execution
@@ -161,13 +161,13 @@ constructive_tension_pairs:
 ## Cross-Cultural Integration Considerations
 
 ### Western Science Integration
-**Complementary Strengths**: Korean collaborative philosophy + Western analytical rigor
-**Method Synthesis**: Systematic Western methods + Korean harmony principles
-**Quality Standards**: International physics standards + Korean thoroughness approach
-**Innovation Balance**: Western individual creativity + Korean collective wisdom
+**Complementary Strengths**: Collaborative philosophy + Western analytical rigor
+**Method Synthesis**: Systematic Western methods + harmony principles
+**Quality Standards**: International physics standards + thoroughness approach
+**Innovation Balance**: Western individual creativity + collective wisdom
 
 ### Global Research Community Integration
-**Cultural Sensitivity**: Adapt Korean principles for international collaboration
+**Cultural Sensitivity**: Adapt philosophical principles for international collaboration
 **Communication Protocols**: Respect diverse cultural approaches to research
 **Universal Values**: Emphasize shared commitment to scientific truth and progress
 **Inclusive Collaboration**: Welcome diverse perspectives while maintaining philosophical coherence
@@ -176,7 +176,7 @@ constructive_tension_pairs:
 
 ### Principle Compliance Assessment
 ```yaml
-korean_philosophy_compliance:
+philosophy_compliance:
   knowledge_sharing:
     measurement: "Frequency and quality of knowledge sharing behaviors"
     threshold: "All discoveries and insights shared transparently"
@@ -199,7 +199,7 @@ korean_philosophy_compliance:
 ```
 
 ### Cultural Integration Success Metrics
-**Philosophy Embodiment**: Agents naturally express Korean principles in their interactions
+**Philosophy Embodiment**: Agents naturally express philosophical principles in their interactions
 **Workflow Effectiveness**: Cyclical workflows produce superior research outcomes
 **Tension Productivity**: Constructive tension consistently improves research quality
 **Knowledge Democratization**: Research insights effectively reach diverse audiences
@@ -213,12 +213,12 @@ korean_philosophy_compliance:
 **Sharing Commitment**: Active effort to make knowledge accessible and valuable
 
 ### Crisis Management Philosophy
-**Challenge Response**: Apply Korean principles during research difficulties
+**Challenge Response**: Apply philosophical principles during research difficulties
 **Conflict Resolution**: Use constructive tension principles for agent disagreements
 **Failure Recovery**: Transform failures into learning and improvement opportunities
 **Community Support**: Leverage collective wisdom during individual challenges
 
-## Historical Korean Philosophy Application
+## Historical Foundation
 
 ### Traditional Scholarship Influence
 **성균관 교육**: Collaborative learning and systematic knowledge development
@@ -227,9 +227,9 @@ korean_philosophy_compliance:
 **홍익인간**: Benefiting humanity through knowledge and wisdom
 
 ### Modern Research Integration
-**한국 과학 발전**: Korean scientific development through collaborative excellence
+**과학 발전**: Scientific development through collaborative excellence
 **국제 협력**: International collaboration while preserving cultural identity
-**기술 혁신**: Technological innovation through systematic Korean approaches
+**기술 혁신**: Technological innovation through systematic approaches
 **지식 경제**: Knowledge economy development through effective sharing
 
-This Korean philosophy framework provides the foundational principles guiding all agent interactions, workflow management, and research quality assurance in the multi-agent physics research system.
+This philosophy framework provides the foundational principles guiding all agent interactions, workflow management, and research quality assurance in the multi-agent physics research system.

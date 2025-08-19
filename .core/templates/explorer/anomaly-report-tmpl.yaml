@@ -53,7 +53,7 @@ anomaly_analysis_report:
     independent_verification: ["{approaches for independent confirmation}"]
     control_experiments: ["{experiments to isolate anomaly source}"]
     
-  # Korean Philosophy Integration
+  # Philosophy Integration
   philosophical_integration:
     anomaly_question: "우리가 놓치고 있는 것은 무엇인가?" # What were we missing?
     constructive_tension_prep: "{preparation for skeptical evaluation}"

@@ -5,7 +5,7 @@ template_name: "framework-specification-template"
 version: "1.0.0"
 created_date: "2025-01-19"
 purpose: "Comprehensive framework for specifying physics research frameworks and architectures"
-korean_philosophy: "명확한 설계가 성공적인 구현을 보장한다" # Clear design guarantees successful implementation
+philosophy: "명확한 설계가 성공적인 구현을 보장한다" # Clear design guarantees successful implementation
 
 # Template Configuration
 framework_specification:

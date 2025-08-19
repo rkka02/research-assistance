@@ -117,7 +117,7 @@ system_architecture:
     security_configuration: ["{security controls and protection measures}"]
     monitoring_configuration: ["{monitoring, logging, and alerting setup}"]
     
-  # Korean Philosophy Integration
+  # Philosophy Integration
   philosophical_integration:
     systematic_organization: "이를 어떻게 체계화할 것인가?" # How shall we systematize this?
     big_picture_design: "{comprehensive architectural vision with detailed implementation guidance}"

@@ -271,7 +271,7 @@ Based on comprehensive analysis of all research agent commands in `.claude/comma
 
 ### Data Files (Missing: 4/5)
 - ❌ `coordination-patterns.md`
-- ✅ `korean-philosophy-principles.md` (CREATED)
+- ✅ `philosophy-principles.md` (CREATED)
 - ❌ `workflow-optimization-methods.md`
 - ❌ `team-dynamics-frameworks.md`
 - ❌ `quality-coordination-standards.md`

@@ -21,7 +21,7 @@ You now have **7 specialized slash commands** implementing Korean philosophical 
 - **`/communicator`** - 소통가: Accessible presentation, audience adaptation, knowledge sharing
 
 ### **Coordination Command**
-- **`/orchestrator`** - 조율자: Team coordination, workflow management, Korean philosophy implementation
+- **`/orchestrator`** - 조율자: Team coordination, workflow management, philosophy implementation
 
 ---
 

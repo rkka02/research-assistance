@@ -5,7 +5,7 @@ template_name: "scalability-plan-template"
 version: "1.0.0"
 created_date: "2025-01-19"
 purpose: "Systematic framework for planning system scalability in physics research environments"
-korean_philosophy: "확장성은 미래를 위한 현재의 지혜다" # Scalability is present wisdom for the future
+philosophy: "확장성은 미래를 위한 현재의 지혜다" # Scalability is present wisdom for the future
 
 # Template Configuration
 scalability_plan:

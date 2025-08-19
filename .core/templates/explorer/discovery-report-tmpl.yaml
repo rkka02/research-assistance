@@ -3,7 +3,7 @@
 ## Template Usage Instructions
 **Purpose**: Standardized reporting format for physics discoveries and pattern recognition
 **Used by**: Explorer agent for systematic discovery documentation
-**Integration**: Compatible with Korean cyclical workflow and constructive tension principles
+**Integration**: Compatible with cyclical workflow and constructive tension principles
 
 ## Discovery Report Structure
 
@@ -66,7 +66,7 @@ discovery_report:
     fundamental_significance: "{implications for basic physics understanding}"
     research_directions: ["{new research questions or directions opened}"]
     
-  # Korean Philosophy Integration
+  # Philosophy Integration
   philosophical_aspects:
     discovery_question: "우리가 놓치고 있는 것은 무엇인가?" # What were we missing?
     constructive_tension: "{how discovery creates productive tension with existing knowledge}"
@@ -116,7 +116,7 @@ validation_checklist:
     - "Physics consistency verified"
     
   integration:
-    - "Korean philosophy principles reflected"
+    - "philosophy principles reflected"
     - "Constructive tension opportunities identified"
     - "Cyclical workflow progression planned"
     - "Cross-agent collaboration prepared"
@@ -160,10 +160,10 @@ agent_usage:
 **Significant Discoveries**: Comprehensive validation preparation, multiple verification pathways
 **Breakthrough Discoveries**: Extensive documentation, community preparation, paradigm implications
 
-### Korean Philosophy Customization
+### Philosophy Customization
 **미지의 영역 탐험**: Emphasize unknown territory exploration and pattern recognition
 **건설적 긴장 준비**: Prepare discoveries for productive skeptical evaluation
 **순환적 워크플로우**: Structure reports for seamless workflow progression
 **지식 공유 최적화**: Organize discoveries for effective knowledge sharing
 
-This discovery report template ensures systematic documentation of physics discoveries while supporting Korean philosophical principles and multi-agent collaboration workflows.
+This discovery report template ensures systematic documentation of physics discoveries while supporting philosophical principles and multi-agent collaboration workflows.

@@ -8,7 +8,7 @@
 
 ## 🏗️ **System Architecture Overview**
 
-The research assistant system employs a **sophisticated multi-agent architecture** where specialized agents defined in `.claude/commands/` reference carefully organized dependencies stored in `.core/` subfolders. This architecture enables **Korean philosophy-driven cyclical workflows** and **constructive tension relationships** while maintaining clean separation of concerns.
+The research assistant system employs a **sophisticated multi-agent architecture** where specialized agents defined in `.claude/commands/` reference carefully organized dependencies stored in `.core/` subfolders. This architecture enables **philosophy-driven cyclical workflows** and **constructive tension relationships** while maintaining clean separation of concerns.
 
 ### **Korean Philosophy Foundation**
 - **Cyclical Workflow**: Explorer → Architect → Craftsman → Skeptic → Synthesizer → Communicator → Explorer
@@ -31,7 +31,7 @@ The research assistant system employs a **sophisticated multi-agent architecture
 │   ├── synthesizer/        # Knowledge integration and synthesis data
 │   ├── communicator/       # Communication and education data
 │   ├── orchestrator/       # Multi-agent coordination data (optional)
-│   └── [shared files]      # Common data (korean-philosophy-principles.md, etc.)
+│   └── [shared files]      # Common data (philosophy-principles.md, etc.)
 ├── tasks/                   # Executable processes and workflows
 │   ├── thinker/            # Universal thinking and problem-solving tasks
 │   ├── explorer/           # Discovery and exploration tasks
@@ -94,7 +94,7 @@ IDE-FILE-RESOLUTION:
   - Dependencies map to .core/{type}/{agent}/{name} for agent-specific files
   - Shared dependencies map to .core/{type}/{name} for common files
   - Example: audience-adaptation.md → .core/tasks/communicator/audience-adaptation.md
-  - Example: korean-philosophy-principles.md → .core/data/korean-philosophy-principles.md (shared)
+  - Example: philosophy-principles.md → .core/data/philosophy-principles.md (shared)
   - IMPORTANT: Only load these files when user requests specific command execution
 ```
 
@@ -229,7 +229,7 @@ IDE-FILE-RESOLUTION:
 ## 🚀 **Implementation Priorities and Next Steps**
 
 ### **Phase 1: Complete Core Workflow (HIGHEST PRIORITY)**
-**Objective**: Ensure 100% operational Korean philosophy cyclical workflow
+**Objective**: Ensure 100% operational philosophy cyclical workflow
 
 #### **🔬 SKEPTIC Agent Completion** (Critical for Explorer↔Skeptic tension)
 **Missing 18 files** (12/30 complete):
@@ -271,7 +271,7 @@ agent_command_file:
 ```yaml
 # Pattern for shared files (all agents can access)
 shared_resources:
-  - korean-philosophy-principles.md  # → .core/data/korean-philosophy-principles.md
+  - philosophy-principles.md  # → .core/data/philosophy-principles.md
   - physics-domains-map.md          # → .core/data/physics-domains-map.md
   - core-config.yaml                # → .core/core-config.yaml
 ```
@@ -382,7 +382,7 @@ shared_resources:
 
 ---
 
-**This documentation reflects the current state of the agent dependency system with its new organized architecture, providing clear guidance for completing the remaining critical agents and maintaining the system's Korean philosophy-driven excellence.**
+**This documentation reflects the current state of the agent dependency system with its new organized architecture, providing clear guidance for completing the remaining critical agents and maintaining the system's philosophy-driven excellence.**
 
 *Document Version: 2.0*  
 *Last Updated: January 19, 2025*  

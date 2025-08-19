@@ -95,7 +95,7 @@ measurement_protocol:
       coverage_factor: "{coverage factor for expanded uncertainty}"
       confidence_level: "{statistical confidence level}"
       
-  # Korean Philosophy Integration
+  # Philosophy Integration
   philosophical_integration:
     precision_pursuit: "정밀함과 재현성을 추구한다" # Pursuing precision and reproducibility
     measurement_excellence: "{systematic approach to measurement perfection}"

@@ -5,7 +5,7 @@ template_name: "workflow-design-template"
 version: "1.0.0"
 created_date: "2025-01-19"
 purpose: "Systematic framework for designing efficient, effective physics research workflows"
-korean_philosophy: "좋은 워크플로우는 자연스럽게 흐르는 물과 같다" # Good workflow flows like natural water
+philosophy: "좋은 워크플로우는 자연스럽게 흐르는 물과 같다" # Good workflow flows like natural water
 
 # Template Configuration
 workflow_design:

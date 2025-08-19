@@ -1,9 +1,9 @@
 research_assistant_team:
   version: "1.0"
-  philosophy: "Korean Research Philosophy Integration"
+  philosophy: "Research Philosophy Integration"
   principle: "지식은 공유될 때 가치를 갖는다" # Knowledge gains value when shared
 
-korean_philosophy:
+philosophy:
   cyclical_workflow:
     sequence: ["explorer", "architect", "craftsman", "skeptic", "synthesizer", "communicator"]
     principle: "순환적 워크플로우" # Cyclical workflow

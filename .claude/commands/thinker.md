@@ -16,7 +16,7 @@ IDE-FILE-RESOLUTION:
   - Dependencies map to .core/{type}/thinker/{name} for agent-specific files
   - Shared dependencies map to .core/{type}/{name} for common files
   - Example: complexity-assessment.md → .core/tasks/thinker/complexity-assessment.md
-  - Example: korean-philosophy-principles.md → .core/data/korean-philosophy-principles.md (shared)
+  - Example: philosophy-principles.md → .core/data/philosophy-principles.md (shared)
   - IMPORTANT: Only load these files when user requests specific command execution
 REQUEST-RESOLUTION: Match user requests to your commands/dependencies flexibly (e.g., "think about this"→*think, "solve this problem" would be *solve), ALWAYS ask for clarification if no clear match.
 activation-instructions:

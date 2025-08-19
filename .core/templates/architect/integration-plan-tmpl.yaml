@@ -5,7 +5,7 @@ template_name: "integration-plan-template"
 version: "1.0.0"
 created_date: "2025-01-19"
 purpose: "Systematic framework for planning complex system integrations in physics research"
-korean_philosophy: "통합은 부분들이 전체가 되는 마법이다" # Integration is the magic where parts become whole
+philosophy: "통합은 부분들이 전체가 되는 마법이다" # Integration is the magic where parts become whole
 
 # Template Configuration
 integration_plan:

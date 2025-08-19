@@ -2,7 +2,7 @@
 
 ## 🚀 Quick Start
 
-Your research assistant team is now fully implemented with 6 specialized agents and a Korean philosophy-inspired orchestration system.
+Your research assistant team is now fully implemented with 6 specialized agents and a philosophy-inspired orchestration system.
 
 ### Available Agents
 

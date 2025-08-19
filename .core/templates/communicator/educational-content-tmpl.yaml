@@ -5,7 +5,7 @@ template_name: "educational-content-template"
 version: "1.0.0"
 created_date: "2025-01-19"
 purpose: "Comprehensive framework for creating pedagogically sound physics educational content"
-korean_philosophy: "좋은 교육 내용은 학습자의 마음에 씨앗을 뿌린다" # Good educational content plants seeds in the learner's mind
+philosophy: "좋은 교육 내용은 학습자의 마음에 씨앗을 뿌린다" # Good educational content plants seeds in the learner's mind
 
 # Template Configuration
 educational_content:

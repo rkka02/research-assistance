@@ -30,7 +30,7 @@ cross_domain_connection_map:
     literature_support: ["{existing literature supporting connection}"]
     expert_assessment: "{domain expert evaluation if available}"
     
-  # Korean Philosophy Integration
+  # Philosophy Integration
   philosophical_integration:
     cross_domain_question: "어떤 숨겨진 연결을 발견했는가?" # What hidden connections were discovered?
     knowledge_bridge_value: "{value created by connecting domains}"

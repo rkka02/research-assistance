@@ -5,7 +5,7 @@ template_name: "visualization-plan-template"
 version: "1.0.0"
 created_date: "2025-01-19"
 purpose: "Systematic framework for planning effective physics visualizations across scales and contexts"
-korean_philosophy: "보이는 것이 이해의 시작이다" # What is seen is the beginning of understanding
+philosophy: "보이는 것이 이해의 시작이다" # What is seen is the beginning of understanding
 
 # Template Configuration
 visualization_plan:

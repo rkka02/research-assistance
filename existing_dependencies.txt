@@ -6,7 +6,7 @@
 .core/core-config.yaml
 .core/data/complexity-assessment-guide.md
 .core/data/cross-domain-patterns.md
-.core/data/korean-philosophy-principles.md
+.core/data/philosophy-principles.md
 .core/data/mental-models-library.md
 .core/data/pattern-types-library.md
 .core/data/physics-domains-map.md

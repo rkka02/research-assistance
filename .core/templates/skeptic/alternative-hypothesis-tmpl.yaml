@@ -5,7 +5,7 @@ template_name: "alternative-hypothesis-template"
 version: "1.0.0"
 created_date: "2025-01-19"
 purpose: "Systematic framework for generating and evaluating alternative hypotheses in physics research"
-korean_philosophy: "다른 설명을 고려해야 진실에 가까워진다" # Considering other explanations brings us closer to truth
+philosophy: "다른 설명을 고려해야 진실에 가까워진다" # Considering other explanations brings us closer to truth
 
 # Template Configuration
 alternative_hypothesis:

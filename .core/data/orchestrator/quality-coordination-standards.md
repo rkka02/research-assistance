@@ -27,7 +27,7 @@ integrated_quality_framework:
       - quality_metrics_driving_collaboration
       - excellence_as_team_identity_foundation
   
-  korean_quality_philosophy:
+  quality_philosophy:
     jeong_seong: "정성 - Sincere dedication to excellence"
     gong_bu: "공부 - Continuous learning and improvement"
     ppalli_ppalli_balanced: "빨리빨리 - Speed balanced with thoroughness"
@@ -464,7 +464,7 @@ quality_assurance_integration:
 
 ---
 
-## Korean Philosophy Integration in Quality Standards
+## Philosophy Integration in Quality Standards
 
 ### 1. Han (한) - Excellence Through Perseverance
 **Principle**: Quality achievement through patient, persistent effort

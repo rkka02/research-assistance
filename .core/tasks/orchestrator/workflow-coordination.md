@@ -1,7 +1,7 @@
 # Workflow Coordination Task Framework
 
 ## Task Overview
-**Objective**: Orchestrate seamless workflow coordination among the six-agent physics research team, ensuring optimal collaboration while maintaining individual agent expertise and Korean philosophy principles.
+**Objective**: Orchestrate seamless workflow coordination among the six-agent physics research team, ensuring optimal collaboration while maintaining individual agent expertise and philosophy principles.
 
 **Coordination Philosophy**: "흥르는 물과 같이, 워크플로우는 자연스럽게 흐르게 한다" (Like flowing water, workflow should flow naturally)
 

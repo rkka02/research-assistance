@@ -216,4 +216,4 @@ This classification system enables the Communicator agent to adapt physics knowl
 
 ---
 
-This audience classification framework enables the Communicator agent to implement the Korean philosophy of knowledge sharing by adapting communication strategies to maximize understanding and engagement across diverse physics communities, ensuring that "지식은 공유될 때 가치를 갖는다" (knowledge gains value when shared).
+This audience classification framework enables the Communicator agent to implement the philosophy of knowledge sharing by adapting communication strategies to maximize understanding and engagement across diverse physics communities, ensuring that "지식은 공유될 때 가치를 갖는다" (knowledge gains value when shared).

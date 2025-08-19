@@ -5,7 +5,7 @@ template_name: "audience-analysis-template"
 version: "1.0.0"
 created_date: "2025-01-19"
 purpose: "Comprehensive framework for analyzing and understanding physics communication audiences"
-korean_philosophy: "청중을 알면 소통의 길이 열린다" # Knowing the audience opens the path to communication
+philosophy: "청중을 알면 소통의 길이 열린다" # Knowing the audience opens the path to communication
 
 # Template Configuration
 audience_analysis:

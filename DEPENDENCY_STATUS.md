@@ -10,7 +10,7 @@
 ✅ `physics-domains-map.md` - Complete physics domain classification  
 ✅ `pattern-types-library.md` - Comprehensive pattern recognition library  
 ✅ `validation-criteria.md` - Physics research quality standards  
-✅ `korean-philosophy-principles.md` - Korean philosophical framework  
+✅ `philosophy-principles.md` - Korean philosophical framework  
 
 ### **Task Files** (Executable Workflows)
 ✅ `pattern-discovery.md` - Systematic pattern recognition  
@@ -35,7 +35,7 @@ Your **Korean Philosophy-Inspired Research Assistant Team** now has:
 
 - **7 slash commands**: `/explorer`, `/skeptic`, `/architect`, `/craftsman`, `/synthesizer`, `/communicator`, `/orchestrator`
 - **Comprehensive dependencies**: Data, tasks, templates, checklists, utils
-- **Korean philosophy integration**: 순환적 워크플로우, 건설적 긴장 관계
+- **philosophy integration**: 순환적 워크플로우, 건설적 긴장 관계
 - **Web search capabilities**: All agents can access real-time information
 - **Physics specialization**: Theoretical, experimental, computational domains
 
@@ -56,14 +56,14 @@ Your **Korean Philosophy-Inspired Research Assistant Team** now has:
 
 **Each command will:**
 1. Activate the specific agent persona
-2. Load Korean philosophy principles
+2. Load philosophy principles
 3. Show specialized internal commands (*discover, *validate, *coordinate, etc.)
 4. Access its dedicated dependencies in `.core/`
 
 ## 📈 **Implementation Success Metrics**
 
 - **38+ dependency files** created across all categories
-- **Korean philosophy** fully integrated into system architecture  
+- **philosophy** fully integrated into system architecture  
 - **Multi-agent collaboration** enabled through constructive tension
 - **Cyclical workflow** implemented for systematic research progression
 - **Web search integration** ready for real-time research enhancement

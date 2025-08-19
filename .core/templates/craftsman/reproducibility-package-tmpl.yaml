@@ -62,7 +62,7 @@ reproducibility_package:
     independent_verification: ["{independent reproduction attempts and results}"]
     cross_validation: ["{alternative method cross-validation results}"]
     
-  # Korean Philosophy Integration
+  # Philosophy Integration
   philosophical_integration:
     knowledge_sharing_principle: "지식은 공유될 때 가치를 갖는다" # Knowledge gains value when shared
     precision_pursuit: "{systematic approach to achieving maximum reproducibility}"

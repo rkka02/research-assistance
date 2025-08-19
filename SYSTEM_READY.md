@@ -2,7 +2,7 @@
 
 ## ✅ **COMPLETE IMPLEMENTATION ACHIEVED**
 
-Your **Korean Philosophy-Inspired Physics Research Assistant Team** is now fully operational with proper Claude Code slash command integration!
+Your **Philosophy-Inspired Physics Research Assistant Team** is now fully operational with proper Claude Code slash command integration!
 
 ---
 
@@ -17,7 +17,7 @@ Your **Korean Philosophy-Inspired Physics Research Assistant Team** is now fully
 - **`/communicator`** - 소통가 (Knowledge Sharing Agent)
 - **`/orchestrator`** - 조율자 (Team Coordination Agent)
 
-### **✅ Korean Philosophy Integration**
+### **✅ Philosophy Integration**
 - **순환적 워크플로우** (Cyclical Workflow): Explorer→Architect→Craftsman→Skeptic→Synthesizer→Communicator→Explorer
 - **건설적 긴장 관계** (Constructive Tension): Productive disagreement for improvement
 - **지식 공유 원칙** (Knowledge Sharing): "지식은 공유될 때 가치를 갖는다"
@@ -114,7 +114,7 @@ Each agent has specialized internal commands:
 
 ## 🌟 **Unique System Features**
 
-### **Korean Philosophy-Driven Collaboration**
+### **Philosophy-Driven Collaboration**
 - **Cyclical improvement** through systematic workflow progression
 - **Constructive disagreement** as catalyst for better solutions
 - **Collective wisdom** emerging from individual agent strengths
@@ -145,7 +145,7 @@ Each agent has specialized internal commands:
 - **`SLASH_COMMANDS_GUIDE.md`** - Complete usage instructions
 - **`CLAUDE.md`** - Project overview and philosophy  
 - **`USAGE_GUIDE.md`** - General usage patterns
-- **`.core/core-config.yaml`** - Korean philosophy configuration
+- **`.core/core-config.yaml`** - philosophy configuration
 - **Individual agent research** in `/docs` folder
 
 ---
@@ -178,6 +178,6 @@ Your system embodies the principle **"지식은 공유될 때 가치를 갖는�
 *coordinate - "Begin comprehensive investigation of [your research topic]"
 ```
 
-**Your Korean philosophy-inspired physics research team is ready to revolutionize how you discover, validate, organize, implement, integrate, and share scientific knowledge!** 
+**Your philosophy-inspired physics research team is ready to revolutionize how you discover, validate, organize, implement, integrate, and share scientific knowledge!** 
 
 **환영합니다! (Welcome!) Let the collaborative discovery begin!** 🌟🔬🧠

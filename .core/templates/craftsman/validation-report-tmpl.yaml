@@ -5,7 +5,7 @@ template_name: "validation-report-template"
 version: "1.0.0"
 created_date: "2025-01-19"
 purpose: "Systematic framework for documenting validation results and quality assurance in physics implementations"
-korean_philosophy: "검증된 결과만이 신뢰할 수 있는 지식이다" # Only validated results are trustworthy knowledge
+philosophy: "검증된 결과만이 신뢰할 수 있는 지식이다" # Only validated results are trustworthy knowledge
 
 # Template Configuration
 validation_report:

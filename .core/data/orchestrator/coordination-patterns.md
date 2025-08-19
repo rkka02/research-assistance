@@ -2,7 +2,7 @@
 
 ## Core Philosophy: "조화로운 협력이 위대한 발견을 만든다" (Harmonious collaboration creates great discoveries)
 
-This framework defines systematic coordination patterns that enable the six-agent research team to work together effectively while maintaining their individual specializations and Korean philosophy-driven dynamics.
+This framework defines systematic coordination patterns that enable the six-agent research team to work together effectively while maintaining their individual specializations and philosophy-driven dynamics.
 
 ---
 
@@ -499,7 +499,7 @@ coordination_metrics:
 
 #### Philosophical Elements:
 ```yaml
-korean_philosophy_coordination:
+philosophy_coordination:
   harmony_principles:
     - wa_harmony: "Balancing individual and collective needs"
     - jeong_affection: "Building genuine care and concern"
@@ -530,4 +530,4 @@ korean_philosophy_coordination:
 
 ---
 
-This comprehensive coordination patterns framework enables the Orchestrator agent to effectively manage the complex dynamics of the six-agent research team while honoring the Korean philosophy principle that "조화로운 협력이 위대한 발견을 만든다" (harmonious collaboration creates great discoveries).
+This comprehensive coordination patterns framework enables the Orchestrator agent to effectively manage the complex dynamics of the six-agent research team while honoring the philosophy principle that "조화로운 협력이 위대한 발견을 만든다" (harmonious collaboration creates great discoveries).

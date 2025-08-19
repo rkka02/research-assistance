@@ -5,7 +5,7 @@ template_name: "explanation-framework-template"
 version: "1.0.0"
 created_date: "2025-01-19"
 purpose: "Systematic framework for creating clear, engaging physics explanations across diverse audiences"
-korean_philosophy: "명확한 설명은 이해의 문을 연다" # Clear explanation opens the door to understanding
+philosophy: "명확한 설명은 이해의 문을 연다" # Clear explanation opens the door to understanding
 
 # Template Configuration
 explanation_framework:
