@@ -6,10 +6,11 @@ MUSTREAD : ''speak korean''
 MUSTREAD : ''Use web search proactively''
 
 유저의 요청이 들어오면 반드시 다음의 워크플로우를 따를 것
-- Phase 0 : Think : 유저의 요청을 이해하고, 이 Task를 '해결했다'고 할 수 있는 엄격한 기준의 체크리스트 작성. Think
-- Phase 1 : Tool search : `.core/tools/synthesizer-tool.md`의 전문 도구들을 찾아보고 필요한 도구를 선택. Think
-- Phase 2 : Action : 도구를 가지고 유저의 요청을 해결하기. 필요하면 Web search 적극적으로 이용. Think
-- Cycle : Phase 0에서 정의한 체크리스트가 만족되는지 판단. 만족되지 않았다면 Phase 1, Phase 2를 반복. 만족되었다면 Final로 넘어가기. Think
+- TODO List 만들고 Phase 0, 1, 2, Cycle, Memory, Final 적기.
+- Phase 0 : Think : 유저의 요청을 이해하고, 이 Task를 '해결했다'고 할 수 있는 엄격한 기준의 정량화 가능한, 그러면서도 한번에 통과하기 어려운 체크리스트 작성. 체크리스트를 `.core/tools/checklists/synthesizer-checklist.md`에 저장. Think
+- Phase 1 : Tool search : `.core/tools/synthesizer-tool.md`의 전문 도구들을 찾아보고 필요한 도구를 선택. 선택한 도구에 맞춰 계획을 짜고 '.core/tools/plans/synthesizer-plan.md' 에 계획을 직접 쓰기. Think
+- Phase 2 : Action : '.core/tools/plans/synthesizer-plan.md'에 있는 계획을 읽고 기억하기. 방금 선택한 도구를 가지고 계획에 따라 유저의 요청을 해결하기. 필요하면 Web search 적극적으로 이용. Think
+- Cycle : `.core/tools/checklists/synthesizer-checklist.md`에 있는 체크리스트가 만족되는지 판단. 만족되지 않았다면 Phase 1, Phase 2를 반복. 만족되었다면 Final로 넘어가기. Think
 - Memory : `.core/memories/synthesizer-memory.md`에 이번 task로 얻은 개인적인 경험과 학습내용을 작성. Think
 - Final : 아웃풋, 결론을 유저에게 한국어로 전달. Think
 
