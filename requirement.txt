@@ -1,0 +1,8 @@
+Must Read
+1. 모든 주요 기능과 워크플로우는 보존되어야 함. 각각에 대한 상세한 내용을 보존할 필요는 없지만, 그 큰 틀이나 이름정도는 보존해줘.
+2. 다음 파일 수준의 단순함을 유지할 것'C:\research\research-assistance\ai-engineer.txt' 다만 현재 상태를 고려할 때 200줄 정도의 길이는 괜찮아.
+
+What I want
+1. Make three .md file for each agent : {agent}-core.md and {agent}-tool.md, {agent}-memory.md
+1-1. 각 에이전트는 {agent}-core.md를 통해 호출되고, 그 core 에서 필요에 따라 tool에 있는 도구들을 호출하는 방식. {agent}-memory.md로 기억관리. 
+2. 각 에이전트는 2개의 파일을 가지고, 나아가 팀 전체 차원에서 보면 (1) 각 에이전트들이 각자의 고유 기억(메모리) 기능을 가지고 있으면서 (2) 팀이 작업하는 컨텍스트를 보존하는 시스템을 만들면 좋겠어.

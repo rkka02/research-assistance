@@ -1,0 +1,45 @@
+# Research Assistant Team Context
+# Current Project Session Management
+
+project_info:
+  name: "research-assistance"
+  version: "2.0.0-simplified"
+  philosophy: "지식은 공유될 때 가치를 갖는다"
+  session_id: "session-{timestamp}"
+  
+current_session:
+  active_agents: []
+  current_phase: "initialization"
+  primary_focus: ""
+  collaboration_mode: "cyclical_workflow"
+  
+workflow_state:
+  sequence: ["explorer", "architect", "craftsman", "skeptic", "synthesizer", "communicator"]
+  current_agent: ""
+  next_agent: ""
+  handoff_context: ""
+  
+project_context:
+  research_domain: ""
+  current_objectives: []
+  constraints: []
+  success_criteria: []
+  deliverables: []
+  
+team_coordination:
+  shared_knowledge: []
+  active_discussions: []
+  pending_decisions: []
+  resource_allocations: []
+  
+quality_standards:
+  discovery_threshold: "5_sigma_significance"
+  reproducibility_target: "95_percent"
+  validation_requirement: "independent_verification"
+  
+session_metadata:
+  start_time: ""
+  duration: ""
+  participants: []
+  tools_used: []
+  outcomes: []
